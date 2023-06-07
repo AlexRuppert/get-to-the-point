@@ -1,3 +1,3 @@
 import { publish } from 'gh-pages'
 
-publish('build', function (err) {})
+publish('build', { dotfiles: true }, function (err) {})
