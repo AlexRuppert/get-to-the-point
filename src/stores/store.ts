@@ -1,5 +1,6 @@
-import { writable, type Writable } from 'svelte/store'
+import { get, writable, type Writable } from 'svelte/store'
 import * as allCardsJson from '../assets/cards.json'
+import { initGame, initRound } from '$lib/logic/game'
 
 export interface WordData {
   english: string
@@ -12,12 +13,44 @@ export interface CardData {
   category: string
   forbidden: WordData[]
 }
+
+export interface GameState {
+  currentCardIndex: number
+  currentTeam: Teams
+}
+
+export type Teams = 'Team A' | 'Team 1'
+export interface RoundState {
+  hasStarted: boolean
+  pointsEarned: number
+  startTime: Date
+  totalSeconds: number
+
+}
+
+export interface GameSettings {
+  languages: {
+    german: boolean
+    english: boolean
+    chinese: boolean
+  }
+  secondsPerRound: number
+  secondsPenaltyForSkip: number
+}
 //@ts-ignore
 export const allCards: Writable<CardData[]> = writable(allCardsJson.default)
-export const settings = writable({
+export const settings: Writable<GameSettings> = writable({
   languages: {
     german: true,
     english: true,
     chinese: true
-  }
+  },
+  secondsPerRound: 60,
+  secondsPenaltyForSkip: 10
 })
+
+let initialGameState = initGame()
+export const gameState: Writable<GameState> = writable(initialGameState)
+
+export const roundState: Writable<RoundState> = writable(initRound(get(settings)))
+
