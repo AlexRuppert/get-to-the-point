@@ -45,7 +45,7 @@ export const settings: Writable<GameSettings> = writable({
     english: true,
     chinese: true
   },
-  secondsPerRound: 60,
+  secondsPerRound: 180,
   secondsPenaltyForSkip: 10
 })
 
