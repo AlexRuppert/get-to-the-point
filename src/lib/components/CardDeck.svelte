@@ -64,6 +64,7 @@
     <div
       slot="front"
       class="bg-white rounded-lg shadow-md p-4 py-6 shadow-slate-400 transform translate-x-0 select-none origin-bottom"
+      class:pointer-events-none={!isUp}
       style:--tw-translate-x={$cardTouchDelta.x + 'px'}
       style:--tw-rotate={$cardTouchDelta.x / 70 + 'deg'}
       bind:this={cardTouchElement}
@@ -130,8 +131,8 @@
     <div
       slot="back"
       class="rounded-lg shadow-md shadow-slate-400 back-card w-full h-full"
-      on:click={handleCardBackTap}
-      on:tap={handleCardBackTap}
+      class:pointer-events-none={isUp}
+      on:pointerdown={handleCardBackTap}
     /></PlayCard
   >
 
