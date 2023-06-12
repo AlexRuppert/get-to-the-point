@@ -13,6 +13,9 @@ export interface CardData {
   category: string
   forbidden: WordData[]
 }
+export interface CardDataEnriched extends CardData {
+  categoryColor: string
+}
 
 export interface GameState {
   currentCardIndex: number
@@ -54,3 +57,4 @@ export const gameState: Writable<GameState> = writable(initialGameState)
 
 export const roundState: Writable<RoundState> = writable(initRound(get(settings)))
 
+export const cardList: Writable<CardDataEnriched[]> = writable([])
