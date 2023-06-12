@@ -1,14 +1,5 @@
 <script lang="ts">
-  import { fisherYatesShuffle } from '$lib/logic/utils'
-  import {
-    allCards,
-    settings,
-    gameState,
-    roundState,
-    type WordData,
-    type CardData,
-    type CardDataEnriched
-  } from '../../stores/store'
+  import { settings, type CardDataEnriched } from '../../stores/store'
 
   import { pan } from 'svelte-gestures'
   import { spring } from 'svelte/motion'
@@ -20,7 +11,7 @@
 
   const cardTouch = { start: { x: 0, y: 0 } }
   const cardTouchDelta = spring({ x: 0, y: 0 })
-  const CARD_SWIPE_THRESHOLD = 80
+  const CARD_SWIPE_THRESHOLD = 60
   let cardTouchElement: HTMLElement
   let playCard: PlayCard
   function cardSwipeHandlerUp(event: { detail: any }) {
@@ -48,11 +39,17 @@
     cardTouchElement.setPointerCapture(event.detail.event.pointerId)
     cardTouch.start = { x: event.detail.event.x, y: event.detail.event.y }
   }
+  function handleCardBackTap() {
+    dispatch('cardBackTap', {})
+  }
 
   export async function drawnNewCard() {
     return playCard.flipFromBack()
   }
-  let isUp = true
+  export async function drawnNewCardClosed() {
+    return playCard.flipToBack()
+  }
+  let isUp = false
 </script>
 
 <div class="p-2 grow relative">
@@ -125,7 +122,8 @@
     </div>
     <div
       slot="back"
-      class="rounded-lg shadow-md shadow-slate-400 back-card w-full h-full bg-red-600"
+      class="rounded-lg shadow-md shadow-slate-400 back-card w-full h-full"
+      on:click={handleCardBackTap}
     /></PlayCard
   >
 
@@ -138,7 +136,9 @@
       CARD_SWIPE_THRESHOLD) /
       20}
   >
-    {$cardTouchDelta.x < 0 ? 'Skip' : $cardTouchDelta.x > 0 ? 'Fine' : ''}
+    <span class="whitespace-pre"
+      >{$cardTouchDelta.x < 0 ? 'Skip' : $cardTouchDelta.x > 0 ? 'Fine' : ' '}</span
+    >
   </div>
   <div
     class="bg-white rounded-lg shadow-sm p-4 pt-6 shadow-slate-500 transform translate-x-0 select-none origin-bottom absolute top-2 left-2 right-2 h-[440px] -z-10 back-card"

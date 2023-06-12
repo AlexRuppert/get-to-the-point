@@ -20,6 +20,12 @@ export function initRound(settings: GameSettings): RoundState {
 
 }
 
+export function startRound(state: RoundState) {
+  state.hasStarted = true
+  state.startTime = new Date()
+  return state
+}
+
 const colorHash = new ColorHash({ lightness: 0.3, saturation: 0.8 })
 export function enhanceCardInfo(card: CardData) {
   return {

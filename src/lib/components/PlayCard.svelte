@@ -5,19 +5,31 @@
   export let containerCardInnerClass = ''
   export let frontCardClass = ''
   export let backCardClass = ''
-  export let isUp = true
+  export let isUp = false
 
   let enableTransition = true
 
   export async function flipFromBack() {
-    enableTransition = false
-    await tick()
-    isUp = false
-    await tick()
-    setTimeout(() => {
-      enableTransition = true
-      isUp = true
-    }, 10)
+    return new Promise<void>(async (resolve, reject) => {
+      enableTransition = false
+      await tick()
+      isUp = false
+      await tick()
+      setTimeout(() => {
+        enableTransition = true
+        isUp = true
+        resolve()
+      }, 10)
+    })
+  }
+
+  export async function flipToBack() {
+    return new Promise<void>(async (resolve, reject) => {
+      if (isUp) {
+        isUp = false
+        await tick()
+      }
+    })
   }
 </script>
 
@@ -46,7 +58,7 @@
   .container-card-inner {
     transform-style: preserve-3d;
     transition-property: none;
-    transition-duration: 500ms;
+    transition-duration: 300ms;
     transition-timing-function: cubic-bezier(1, 0, 0.47, 1.05);
 
     transform-origin: top;

@@ -3,6 +3,9 @@
   import { mdiSkipNext } from '@mdi/js'
   import { roundState, settings, type WordData } from '../../stores/store'
   import { initRound } from '$lib/logic/game'
+  import { createEventDispatcher } from 'svelte'
+
+  const dispatch = createEventDispatcher()
   let timeLeft = 0
   let currentTime: Date = new Date('2999-12-12')
   function nextRound() {
@@ -15,10 +18,20 @@
   }, 200)
 
   $: {
-    timeLeft =
-      $roundState.totalSeconds -
-      Math.floor((currentTime.getTime() - $roundState.startTime.getTime()) / 1000)
-    timeLeft = Math.max(timeLeft, 0)
+    if ($roundState.hasStarted) {
+      timeLeft = Math.max(
+        $roundState.totalSeconds -
+          Math.floor((currentTime.getTime() - $roundState.startTime.getTime()) / 1000),
+        0
+      )
+    } else {
+      timeLeft = $roundState.totalSeconds
+    }
+
+    if (timeLeft <= 0) {
+      dispatch('timeOut', {})
+      nextRound()
+    }
   }
 </script>
 

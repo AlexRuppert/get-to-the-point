@@ -17,12 +17,13 @@
 
   import StatusHeader from '$lib/components/StatusHeader.svelte'
   import CardDeck from '$lib/components/CardDeck.svelte'
-  import { enhanceCardInfo } from '$lib/logic/game'
+  import { enhanceCardInfo, startRound } from '$lib/logic/game'
+  import { onMount } from 'svelte/internal'
 
   let currentCard: CardDataEnriched
   let cardDeck: CardDeck
   $cardList = fisherYatesShuffle($allCards).map(enhanceCardInfo)
-  nextCard()
+  currentCard = $cardList[0]
 
   function answerWrong() {
     $roundState.pointsEarned--
@@ -41,11 +42,34 @@
     nextCard()
   }
 
-  function nextCard() {
+  async function nextCard() {
     if (cardDeck) cardDeck.drawnNewCard()
     currentCard = $cardList[$gameState.currentCardIndex]
     $gameState.currentCardIndex += 1
   }
+  async function resetCards() {
+    if (cardDeck) await cardDeck.drawnNewCardClosed()
+    currentCard = $cardList[$gameState.currentCardIndex]
+    $gameState.currentCardIndex += 1
+  }
+  async function handleCardBackTap() {
+    if (!$roundState.hasStarted) {
+      await nextCard()
+      $roundState = startRound($roundState)
+    }
+  }
+
+  $: {
+    if (!$roundState.hasStarted && mounted) {
+      resetCards()
+    }
+  }
+  let mounted = false
+  onMount(async () => {
+    setTimeout(() => {
+      mounted = true
+    }, 10)
+  })
 </script>
 
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
@@ -57,6 +81,7 @@
       bind:this={cardDeck}
       on:answerSkipped={answerSkipped}
       on:answerFine={answerFine}
+      on:cardBackTap={handleCardBackTap}
       {currentCard}
     />
     <ButtonFooter
