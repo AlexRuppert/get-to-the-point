@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { settings, type CardDataEnriched } from '../../stores/store'
+  import { roundState, settings, type CardDataEnriched } from '../../stores/store'
 
   import { pan } from 'svelte-gestures'
   import { spring } from 'svelte/motion'
@@ -36,6 +36,7 @@
     })
   }
   function cardSwipeHandlerDown(event: any) {
+    if (!$roundState.hasStarted) return
     cardTouchElement.setPointerCapture(event.detail.event.pointerId)
     cardTouch.start = { x: event.detail.event.x, y: event.detail.event.y }
   }
@@ -50,10 +51,16 @@
     return playCard.flipToBack()
   }
   let isUp = false
+
+  $: {
+    if (isUp && !$roundState.hasStarted) {
+      drawnNewCardClosed()
+    }
+  }
 </script>
 
 <div class="p-2 grow relative">
-  <PlayCard bind:this={playCard} {isUp} containerCardClass="absolute top-2 left-2 right-2 h-fit">
+  <PlayCard bind:this={playCard} bind:isUp containerCardClass="absolute top-2 left-2 right-2 h-fit">
     <div
       slot="front"
       class="bg-white rounded-lg shadow-md p-4 py-6 shadow-slate-400 transform translate-x-0 select-none origin-bottom"
@@ -124,11 +131,12 @@
       slot="back"
       class="rounded-lg shadow-md shadow-slate-400 back-card w-full h-full"
       on:click={handleCardBackTap}
+      on:tap={handleCardBackTap}
     /></PlayCard
   >
 
   <div
-    class="absolute top-10 left-10 right-10 text-center p-1 rounded-full text-white text-xl opacity-0"
+    class="absolute top-10 left-10 right-10 text-center p-1 rounded-full text-white text-xl opacity-0 pointer-events-none"
     class:bg-secondary-500={$cardTouchDelta.x < 0}
     class:bg-success-500={$cardTouchDelta.x > 0}
     style:opacity={(+(Math.abs($cardTouchDelta.x) > CARD_SWIPE_THRESHOLD) *

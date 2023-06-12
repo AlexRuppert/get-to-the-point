@@ -8,7 +8,9 @@
   const dispatch = createEventDispatcher()
   let timeLeft = 0
   let currentTime: Date = new Date('2999-12-12')
+  let oldPoints: number = 0
   function nextRound() {
+    oldPoints = $roundState.pointsEarned
     $roundState = initRound($settings)
     currentTime = new Date()
   }
@@ -19,10 +21,13 @@
 
   $: {
     if ($roundState.hasStarted) {
-      timeLeft = Math.max(
-        $roundState.totalSeconds -
-          Math.floor((currentTime.getTime() - $roundState.startTime.getTime()) / 1000),
-        0
+      timeLeft = Math.min(
+        $roundState.totalSeconds,
+        Math.max(
+          $roundState.totalSeconds -
+            Math.floor((currentTime.getTime() - $roundState.startTime.getTime()) / 1000),
+          0
+        )
       )
     } else {
       timeLeft = $roundState.totalSeconds
@@ -37,7 +42,9 @@
 
 <div class="bg-white rounded-none font-semibold w-full shadow-lg flex justify-between">
   <div class="points p-2 flex justify-items-center items-center space-x-1">
-    <span>Points</span><span class="text-3xl tabular-nums">{$roundState.pointsEarned}</span>
+    <span>Points</span><span class="text-3xl tabular-nums"
+      >{$roundState.hasStarted ? $roundState.pointsEarned : oldPoints}</span
+    >
   </div>
   <div class="timer p-2 points flex justify-items-center items-center space-x-1">
     <span>Time</span><span class=" text-3xl tabular-nums">{timeLeft}</span>

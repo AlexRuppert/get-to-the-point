@@ -26,11 +26,13 @@
   currentCard = $cardList[0]
 
   function answerWrong() {
+    if (!$roundState.hasStarted) return
     $roundState.pointsEarned--
     $roundState.pointsEarned = Math.max($roundState.pointsEarned, 0)
     nextCard()
   }
   function answerSkipped() {
+    if (!$roundState.hasStarted) return
     $roundState.totalSeconds -= $settings.secondsPenaltyForSkip
     if ($roundState.totalSeconds < 0) {
       $roundState.totalSeconds = 0
@@ -38,6 +40,7 @@
     nextCard()
   }
   function answerFine() {
+    if (!$roundState.hasStarted) return
     $roundState.pointsEarned++
     nextCard()
   }
