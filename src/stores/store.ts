@@ -1,7 +1,7 @@
 import { get, writable, type Writable } from 'svelte/store'
 import * as allCardsJson from '../assets/cards.json'
 import { initGame, initRound } from '$lib/logic/game'
-
+import { localStorageStore } from '@skeletonlabs/skeleton';
 export interface WordData {
   english: string
   german: string
@@ -39,17 +39,19 @@ export interface GameSettings {
   }
   secondsPerRound: number
   secondsPenaltyForSkip: number
+  excludeCategories: string[]
 }
 //@ts-ignore
 export const allCards: Writable<CardData[]> = writable(allCardsJson.default)
-export const settings: Writable<GameSettings> = writable({
+export const settings: Writable<GameSettings> = localStorageStore('get_to_the_point_settings', {
   languages: {
     german: true,
     english: true,
     chinese: true
   },
   secondsPerRound: 150,
-  secondsPenaltyForSkip: 10
+  secondsPenaltyForSkip: 10,
+  excludeCategories: []
 })
 
 let initialGameState = initGame()

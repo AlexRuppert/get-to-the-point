@@ -1,6 +1,5 @@
 <script lang="ts">
   import ButtonFooter from '../lib/components/ButtonFooter.svelte'
-
   import { setModeCurrent } from '@skeletonlabs/skeleton'
   import {
     allCards,
@@ -22,8 +21,7 @@
 
   let currentCard: CardDataEnriched
   let cardDeck: CardDeck
-  $cardList = fisherYatesShuffle($allCards).map(enhanceCardInfo)
-  currentCard = $cardList[0]
+  reShuffle()
 
   function answerWrong() {
     if (!$roundState.hasStarted) return
@@ -45,23 +43,45 @@
     nextCard()
   }
 
-  async function nextCard() {
-    if (cardDeck) cardDeck.drawnNewCard()
+  function reShuffle() {
+    $cardList = fisherYatesShuffle(
+      $allCards.filter((c) => !$settings.excludeCategories.includes(c.category))
+    ).map(enhanceCardInfo)
+    console.log(cardList)
+    console.log($settings.excludeCategories.includes('animals'))
+    currentCard = $cardList[0]
+  }
+  function advanceCards() {
     currentCard = $cardList[$gameState.currentCardIndex]
     $gameState.currentCardIndex += 1
+    if ($gameState.currentCardIndex >= $cardList.length) {
+      $gameState.currentCardIndex = 0
+      reShuffle()
+    }
+  }
+
+  async function nextCard() {
+    if (cardDeck) cardDeck.drawnNewCard()
+    advanceCards()
   }
   async function resetCards() {
     if (cardDeck) await cardDeck.drawnNewCardClosed()
-    currentCard = $cardList[$gameState.currentCardIndex]
-    $gameState.currentCardIndex += 1
+    advanceCards()
   }
-  async function handleCardBackTap() {
-    if (!$roundState.hasStarted) {
+  async function handleCardBackTap(event: { detail: { type: string } }) {
+    if (event.detail.type == 'back' && !$roundState.hasStarted) {
       await nextCard()
       $roundState = startRound($roundState)
     }
   }
-
+  let lastExcludedCategories = $settings.excludeCategories
+  $: {
+    if ($settings.excludeCategories.join() != lastExcludedCategories.join()) {
+      lastExcludedCategories = $settings.excludeCategories
+      $cardList = $cardList.filter((c) => !$settings.excludeCategories.includes(c.category))
+      advanceCards()
+    }
+  }
   $: {
     if (!$roundState.hasStarted && mounted) {
       resetCards()
@@ -84,7 +104,7 @@
       bind:this={cardDeck}
       on:answerSkipped={answerSkipped}
       on:answerFine={answerFine}
-      on:cardBackTap={handleCardBackTap}
+      on:tapCard={handleCardBackTap}
       {currentCard}
     />
     <ButtonFooter

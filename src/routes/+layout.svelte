@@ -5,16 +5,17 @@
   import '@skeletonlabs/skeleton/styles/skeleton.css'
   // Most of your app wide CSS should be put in this file
   import '../app.postcss'
-  import { AppShell, AppBar } from '@skeletonlabs/skeleton'
+  import { AppShell, AppBar, Modal } from '@skeletonlabs/skeleton'
   //@ts-ignore
   import { pwaInfo } from 'virtual:pwa-info'
+  import { modalComponentRegistry } from '$lib/logic/modalComponentRegistry'
   $: webManifestLink = pwaInfo ? pwaInfo.webManifest.linkTag : ''
 </script>
 
 <svelte:head>
   {@html webManifestLink}
 </svelte:head>
-
+<Modal components={modalComponentRegistry} />
 <!-- App Shell -->
 <AppShell>
   <slot />
@@ -23,5 +24,8 @@
 <style>
   :global(body) {
     background: #efefef;
+  }
+  :global(*) {
+    -webkit-tap-highlight-color: transparent;
   }
 </style>

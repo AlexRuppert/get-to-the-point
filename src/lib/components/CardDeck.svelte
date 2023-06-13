@@ -40,9 +40,6 @@
     cardTouchElement.setPointerCapture(event.detail.event.pointerId)
     cardTouch.start = { x: event.detail.event.x, y: event.detail.event.y }
   }
-  function handleCardBackTap() {
-    dispatch('cardBackTap', {})
-  }
 
   export async function drawnNewCard() {
     return playCard.flipFromBack()
@@ -60,7 +57,12 @@
 </script>
 
 <div class="p-2 grow relative">
-  <PlayCard bind:this={playCard} bind:isUp containerCardClass="absolute top-2 left-2 right-2 h-fit">
+  <PlayCard
+    bind:this={playCard}
+    bind:isUp
+    containerCardClass="absolute top-2 left-2 right-2 h-fit"
+    on:tapCard
+  >
     <div
       slot="front"
       class="bg-white rounded-lg shadow-md p-4 py-6 shadow-slate-400 transform translate-x-0 select-none origin-bottom"
@@ -84,7 +86,7 @@
         </div>
         <div class="flex flex-col">
           <div
-            class="flex flex-col space-y-2 w-full min-h-[5em] p-5 target-word items-center justify-center tracking-wider leading-4"
+            class="flex flex-col space-y-2 w-full min-h-[9.5em] p-5 target-word items-center justify-center tracking-wider leading-4"
           >
             <div>
               {#if $settings.languages.german}
@@ -104,11 +106,14 @@
           <div class="forbidden-words tracking-wider leading-4">
             {#each currentCard.forbidden as forbiddenWords, i}
               <div
-                class="flex align-middle justify-center p-1"
+                class="flex align-middle justify-center p-1 min-h-[3em]"
                 style:background-color={currentCard.categoryColor + (i % 2 == 0 ? '22' : '44')}
                 style:border-color={currentCard.categoryColor}
               >
-                <div class="w-full">
+                <div
+                  class="flex flex-col items-center justify-center"
+                  class:w-full={$settings.languages.german || $settings.languages.english}
+                >
                   {#if $settings.languages.german}
                     <div class="text-center text-md">{forbiddenWords.german}</div>
                   {/if}
@@ -132,7 +137,6 @@
       slot="back"
       class="rounded-lg shadow-md shadow-slate-400 back-card w-full h-full"
       class:pointer-events-none={isUp}
-      on:pointerdown={handleCardBackTap}
     /></PlayCard
   >
 

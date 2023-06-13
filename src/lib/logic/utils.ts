@@ -9,3 +9,8 @@ export function fisherYatesShuffle(arr: any[]) {
   }
   return arr
 }
+
+
+export function unique(arr: Array<any>) {
+  return [...new Set(arr)]
+}

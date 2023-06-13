@@ -1,12 +1,13 @@
 <script lang="ts">
   import { clazz } from '$lib/logic/utils'
   import { tick } from 'svelte'
+  import { createEventDispatcher } from 'svelte'
   export let containerCardClass = ''
   export let containerCardInnerClass = ''
   export let frontCardClass = ''
   export let backCardClass = ''
   export let isUp = false
-
+  const dispatch = createEventDispatcher()
   let enableTransition = true
 
   export async function flipFromBack() {
@@ -31,6 +32,10 @@
       }
     })
   }
+
+  function handleCardTap(event: PointerEvent & { currentTarget: EventTarget & HTMLDivElement }) {
+    dispatch('tapCard', { type: isUp ? 'front' : 'back' })
+  }
 </script>
 
 <div class={clazz(containerCardClass, 'container-card drop-shadow-md')} on:click>
@@ -38,6 +43,7 @@
     class={clazz(containerCardInnerClass, 'container-card-inner relative w-full h-max transform')}
     class:enableTransition
     class:flipped={!isUp}
+    on:pointerdown={handleCardTap}
   >
     <div class={clazz(frontCardClass, 'front-card  w-full h-fit backface-invisible')}>
       <slot name="front" />
@@ -61,10 +67,10 @@
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(1, 0, 0.47, 1.05);
 
-    transform-origin: top;
+    transform-origin: right;
   }
   .flipped {
-    transform: translateY(100%) rotateX(180deg);
+    transform: translateX(-100%) rotateY(180deg);
   }
   .back-card {
     transform: rotateY(180deg);
