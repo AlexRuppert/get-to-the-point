@@ -22740,7 +22740,7 @@
       "pinyin": "zú qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Goal",
         "german": "Tor",
@@ -22799,7 +22799,7 @@
       "pinyin": "bǎn qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Bat",
         "german": "Schläger",
@@ -22858,7 +22858,7 @@
       "pinyin": "lán qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Dribble",
         "german": "Dribbeln",
@@ -22917,7 +22917,7 @@
       "pinyin": "wǎng qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Racket",
         "german": "Schläger",
@@ -22976,7 +22976,7 @@
       "pinyin": "pái qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Spike",
         "german": "Angriffsschlag",
@@ -23035,7 +23035,7 @@
       "pinyin": "bàng qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pitcher",
         "german": "Werfer",
@@ -23094,7 +23094,7 @@
       "pinyin": "gǎn lǎn qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Scrum",
         "german": "Gedränge",
@@ -23153,7 +23153,7 @@
       "pinyin": "gāo ěr fū qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Club",
         "german": "Schläger",
@@ -23212,7 +23212,7 @@
       "pinyin": "qū gùn qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Stick",
         "german": "Schläger",
@@ -23271,7 +23271,7 @@
       "pinyin": "yǔ máo qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Shuttlecock",
         "german": "Federball",
@@ -23330,7 +23330,7 @@
       "pinyin": "pīng pāng qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Paddle",
         "german": "Schläger",
@@ -23389,7 +23389,7 @@
       "pinyin": "quán jī"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Gloves",
         "german": "Handschuhe",
@@ -23448,7 +23448,7 @@
       "pinyin": "yóu yǒng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pool",
         "german": "Pool",
@@ -23507,7 +23507,7 @@
       "pinyin": "qí zì xíng chē"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Bicycle",
         "german": "Fahrrad",
@@ -23566,7 +23566,7 @@
       "pinyin": "tián jìng yùn dòng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Track",
         "german": "Laufbahn",
@@ -23625,7 +23625,7 @@
       "pinyin": "huá xuě"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Ski",
         "german": "Ski",
@@ -23684,7 +23684,7 @@
       "pinyin": "tǐ cāo"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Beam",
         "german": "Balken",
@@ -23743,7 +23743,7 @@
       "pinyin": "wǔ shù"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Kick",
         "german": "Tritt",
@@ -23802,7 +23802,7 @@
       "pinyin": "sī nuò kè"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Cue",
         "german": "Queue",
@@ -23861,7 +23861,7 @@
       "pinyin": "fēi biāo"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Target",
         "german": "Ziel",
@@ -23920,7 +23920,7 @@
       "pinyin": "guó jì xiàng qí"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Checkmate",
         "german": "Schachmatt",
@@ -23979,7 +23979,7 @@
       "pinyin": "bǎo líng qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pin",
         "german": "Kegel",
@@ -24038,7 +24038,7 @@
       "pinyin": "shè jiàn"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Bow",
         "german": "Bogen",
@@ -24097,7 +24097,7 @@
       "pinyin": "sài mǎ"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Jockey",
         "german": "Jockey",
@@ -24156,7 +24156,7 @@
       "pinyin": "huá bīng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Ice",
         "german": "Eis",
@@ -24215,7 +24215,7 @@
       "pinyin": "chōng làng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Wave",
         "german": "Welle",
@@ -24274,7 +24274,7 @@
       "pinyin": "huá bǎn yùn dòng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Skateboard",
         "german": "Skateboard",
@@ -24333,7 +24333,7 @@
       "pinyin": "pān yán"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Rock",
         "german": "Fels",
@@ -24392,7 +24392,7 @@
       "pinyin": "jī jiàn"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Foil",
         "german": "Florett",
@@ -24451,7 +24451,7 @@
       "pinyin": "shuāi jiāo"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Mat",
         "german": "Matte",
@@ -24510,7 +24510,7 @@
       "pinyin": "diào yú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Fish",
         "german": "Fisch",
@@ -24569,7 +24569,7 @@
       "pinyin": "mǎ qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Horse",
         "german": "Pferd",
@@ -24628,7 +24628,7 @@
       "pinyin": "fān chuán"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Boat",
         "german": "Boot",
@@ -24687,7 +24687,7 @@
       "pinyin": "bì qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Racket",
         "german": "Schläger",
@@ -24746,7 +24746,7 @@
       "pinyin": "cháng qū gùn qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Stick",
         "german": "Stock",
@@ -24805,7 +24805,7 @@
       "pinyin": "bīng hú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Stone",
         "german": "Stein",
@@ -24864,7 +24864,7 @@
       "pinyin": "xuě chē"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sled",
         "german": "Schlitten",
@@ -24923,7 +24923,7 @@
       "pinyin": "tiě rén sān xiàng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Swim",
         "german": "Schwimmen",
@@ -24982,7 +24982,7 @@
       "pinyin": "róu dào"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Throw",
         "german": "Werfen",
@@ -25041,7 +25041,7 @@
       "pinyin": "kōng shǒu dào"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Kick",
         "german": "Tritt",
@@ -25100,7 +25100,7 @@
       "pinyin": "tái quán dào"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Kick",
         "german": "Tritt",
@@ -25159,7 +25159,7 @@
       "pinyin": "gōng fu"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Kick",
         "german": "Tritt",
@@ -25218,7 +25218,7 @@
       "pinyin": "xiàng pū"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Wrestler",
         "german": "Ringer",
@@ -25277,7 +25277,7 @@
       "pinyin": "tài quán"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Kick",
         "german": "Tritt",
@@ -25336,7 +25336,7 @@
       "pinyin": "bā xī zhàn wǔ"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Kick",
         "german": "Tritt",
@@ -25395,7 +25395,7 @@
       "pinyin": "sàn dǎ"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Kick",
         "german": "Tritt",
@@ -25454,7 +25454,7 @@
       "pinyin": "zōng hé gé dòu (MMA)"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Punch",
         "german": "Schlag",
@@ -25513,7 +25513,7 @@
       "pinyin": "yú jiā"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pose",
         "german": "Pose",
@@ -25572,7 +25572,7 @@
       "pinyin": "pǔ lā tí"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Core",
         "german": "Kern",
@@ -25631,7 +25631,7 @@
       "pinyin": "shǒu qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Goal",
         "german": "Tor",
@@ -25690,7 +25690,7 @@
       "pinyin": "shuǐ qiú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pool",
         "german": "Becken",
@@ -25749,7 +25749,7 @@
       "pinyin": "qián shuǐ"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Water",
         "german": "Wasser",
@@ -25808,7 +25808,7 @@
       "pinyin": "huá chuán"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Boat",
         "german": "Boot",
@@ -25867,7 +25867,7 @@
       "pinyin": "pí huá tǐng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Boat",
         "german": "Boot",
@@ -25926,7 +25926,7 @@
       "pinyin": "piāo liú"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "River",
         "german": "Fluss",
@@ -25985,7 +25985,7 @@
       "pinyin": "fān bǎn yùn dòng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Wind",
         "german": "Wind",
@@ -26044,7 +26044,7 @@
       "pinyin": "fēng zhēng chōng làng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Wind",
         "german": "Wind",
@@ -26103,7 +26103,7 @@
       "pinyin": "huá xiáng sǎn"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Glider",
         "german": "Gleiter",
@@ -26162,7 +26162,7 @@
       "pinyin": "tiào sǎn"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Jump",
         "german": "Springen",
@@ -26221,7 +26221,7 @@
       "pinyin": "bèng jí tiào"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Jump",
         "german": "Springen",
@@ -26280,7 +26280,7 @@
       "pinyin": "huá xuě bǎn yùn dòng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Snow",
         "german": "Schnee",
@@ -26339,7 +26339,7 @@
       "pinyin": "huā yàng huá bīng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Ice",
         "german": "Eis",
@@ -26398,7 +26398,7 @@
       "pinyin": "liǎng xiàng quán néng"
     },
     "category": "sports",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Ski",
         "german": "Ski",
@@ -26457,7 +26457,7 @@
       "pinyin": "bǐ sà"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Slice",
         "german": "Stück",
@@ -26516,7 +26516,7 @@
       "pinyin": "kā fēi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Caffeine",
         "german": "Koffein",
@@ -26575,7 +26575,7 @@
       "pinyin": "qiǎo kè lì"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -26634,7 +26634,7 @@
       "pinyin": "sān míng zhì"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Bread",
         "german": "Brot",
@@ -26693,7 +26693,7 @@
       "pinyin": "shuǐ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Drink",
         "german": "Getränk",
@@ -26752,7 +26752,7 @@
       "pinyin": "niú nǎi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Cow",
         "german": "Kuh",
@@ -26811,7 +26811,7 @@
       "pinyin": "nǎi lào"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Dairy",
         "german": "Milchprodukt",
@@ -26870,7 +26870,7 @@
       "pinyin": "píng guǒ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Fruit",
         "german": "Obst",
@@ -26929,7 +26929,7 @@
       "pinyin": "xiāng jiāo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Yellow",
         "german": "Gelb",
@@ -26988,7 +26988,7 @@
       "pinyin": "chéng zi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Fruit",
         "german": "Obst",
@@ -27047,7 +27047,7 @@
       "pinyin": "chá"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Hot",
         "german": "Heiß",
@@ -27106,7 +27106,7 @@
       "pinyin": "bīng qí lín"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Cold",
         "german": "Kalt",
@@ -27165,7 +27165,7 @@
       "pinyin": "dàn gāo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Dessert",
         "german": "Nachspeise",
@@ -27224,7 +27224,7 @@
       "pinyin": "miàn bāo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Loaf",
         "german": "Laib",
@@ -27283,7 +27283,7 @@
       "pinyin": "huáng yóu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Spread",
         "german": "Aufstrich",
@@ -27342,7 +27342,7 @@
       "pinyin": "dàn"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Shell",
         "german": "Schale",
@@ -27401,7 +27401,7 @@
       "pinyin": "shā lā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Vegetables",
         "german": "Gemüse",
@@ -27460,7 +27460,7 @@
       "pinyin": "jī ròu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Poultry",
         "german": "Geflügel",
@@ -27519,7 +27519,7 @@
       "pinyin": "mǐ fàn"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Grain",
         "german": "Korn",
@@ -27578,7 +27578,7 @@
       "pinyin": "miàn tiáo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Italian",
         "german": "Italienisch",
@@ -27637,7 +27637,7 @@
       "pinyin": "tāng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Broth",
         "german": "Brühe",
@@ -27696,7 +27696,7 @@
       "pinyin": "guǒ zhī"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Fruit",
         "german": "Obst",
@@ -27755,7 +27755,7 @@
       "pinyin": "sū dá shuǐ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Carbonated",
         "german": "Kohlensäurehaltig",
@@ -27814,7 +27814,7 @@
       "pinyin": "pí jiǔ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Alcoholic",
         "german": "Alkoholisch",
@@ -27873,7 +27873,7 @@
       "pinyin": "pú táo jiǔ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Red",
         "german": "Rot",
@@ -27932,7 +27932,7 @@
       "pinyin": "hàn bǎo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Beef",
         "german": "Rindfleisch",
@@ -27991,7 +27991,7 @@
       "pinyin": "shǔ tiáo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Potato",
         "german": "Kartoffel",
@@ -28050,7 +28050,7 @@
       "pinyin": "niú pái"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Beef",
         "german": "Rindfleisch",
@@ -28109,7 +28109,7 @@
       "pinyin": "yú"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Seafood",
         "german": "Meeresfrüchte",
@@ -28168,7 +28168,7 @@
       "pinyin": "shòu sī"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Fish",
         "german": "Fisch",
@@ -28227,7 +28227,7 @@
       "pinyin": "miàn tiáo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pasta",
         "german": "Pasta",
@@ -28286,7 +28286,7 @@
       "pinyin": "jiǎo zi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Asian",
         "german": "Asiatisch",
@@ -28345,7 +28345,7 @@
       "pinyin": "gā lí"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Spicy",
         "german": "Scharf",
@@ -28404,7 +28404,7 @@
       "pinyin": "tǎ kě"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Mexican",
         "german": "Mexikanisch",
@@ -28463,7 +28463,7 @@
       "pinyin": "juǎn bǐng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Mexican",
         "german": "Mexikanisch",
@@ -28522,7 +28522,7 @@
       "pinyin": "yù mǐ piàn"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Mexican",
         "german": "Mexikanisch",
@@ -28581,7 +28581,7 @@
       "pinyin": "shā shā jiàng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Mexican",
         "german": "Mexikanisch",
@@ -28640,7 +28640,7 @@
       "pinyin": "è lí jiàng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Avocado",
         "german": "Avocado",
@@ -28699,7 +28699,7 @@
       "pinyin": "zhī shì hàn bǎo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Hamburger",
         "german": "Hamburger",
@@ -28758,7 +28758,7 @@
       "pinyin": "rè gǒu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sausage",
         "german": "Wurst",
@@ -28817,7 +28817,7 @@
       "pinyin": "bào mǐ huā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Snack",
         "german": "Snack",
@@ -28876,7 +28876,7 @@
       "pinyin": "shǔ piàn"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Snack",
         "german": "Snack",
@@ -28935,7 +28935,7 @@
       "pinyin": "bǐng gān"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Biscuit",
         "german": "Keks",
@@ -28994,7 +28994,7 @@
       "pinyin": "tián tián quān"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pastry",
         "german": "Gebäck",
@@ -29053,7 +29053,7 @@
       "pinyin": "sōng bǐng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pastry",
         "german": "Gebäck",
@@ -29112,7 +29112,7 @@
       "pinyin": "jiān bǐng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Breakfast",
         "german": "Frühstück",
@@ -29171,7 +29171,7 @@
       "pinyin": "huá fū bǐng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Breakfast",
         "german": "Frühstück",
@@ -29230,7 +29230,7 @@
       "pinyin": "táng jiāng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -29289,7 +29289,7 @@
       "pinyin": "fēng mì"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -29348,7 +29348,7 @@
       "pinyin": "guǒ jiàng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -29407,7 +29407,7 @@
       "pinyin": "huā shēng jiàng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Spread",
         "german": "Aufstrich",
@@ -29466,7 +29466,7 @@
       "pinyin": "gǔ wù"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Breakfast",
         "german": "Frühstück",
@@ -29525,7 +29525,7 @@
       "pinyin": "yàn mài zhōu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Breakfast",
         "german": "Frühstück",
@@ -29584,7 +29584,7 @@
       "pinyin": "suān nǎi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Healthy",
         "german": "Gesund",
@@ -29643,7 +29643,7 @@
       "pinyin": "gǔ wù bàng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Breakfast",
         "german": "Frühstück",
@@ -29702,7 +29702,7 @@
       "pinyin": "hú luó bo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Orange",
         "german": "Orange",
@@ -29761,7 +29761,7 @@
       "pinyin": "fān qié"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Red",
         "german": "Rot",
@@ -29820,7 +29820,7 @@
       "pinyin": "tǔ dòu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Starch",
         "german": "Stärke",
@@ -29879,7 +29879,7 @@
       "pinyin": "yáng cōng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pungent",
         "german": "Scharf",
@@ -29938,7 +29938,7 @@
       "pinyin": "dà suàn"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pungent",
         "german": "Scharf",
@@ -29997,7 +29997,7 @@
       "pinyin": "xī lán huā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -30056,7 +30056,7 @@
       "pinyin": "bō cài"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Leafy",
         "german": "Blättrig",
@@ -30115,7 +30115,7 @@
       "pinyin": "shēng cài"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -30174,7 +30174,7 @@
       "pinyin": "huáng guā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -30233,7 +30233,7 @@
       "pinyin": "yù mǐ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Yellow",
         "german": "Gelb",
@@ -30292,7 +30292,7 @@
       "pinyin": "wān dòu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -30351,7 +30351,7 @@
       "pinyin": "dòu lèi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Legume",
         "german": "Hülsenfrucht",
@@ -30410,7 +30410,7 @@
       "pinyin": "mó gu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Fungus",
         "german": "Pilz",
@@ -30469,7 +30469,7 @@
       "pinyin": "hú jiāo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Spice",
         "german": "Gewürz",
@@ -30528,7 +30528,7 @@
       "pinyin": "yán"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Seasoning",
         "german": "Gewürz",
@@ -30587,7 +30587,7 @@
       "pinyin": "táng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -30646,7 +30646,7 @@
       "pinyin": "xiāng liào"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Seasoning",
         "german": "Gewürz",
@@ -30705,7 +30705,7 @@
       "pinyin": "fān qié jiàng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Tomato",
         "german": "Tomate",
@@ -30764,7 +30764,7 @@
       "pinyin": "jiè mò"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Condiment",
         "german": "Würzmittel",
@@ -30823,7 +30823,7 @@
       "pinyin": "dàn huáng jiàng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Condiment",
         "german": "Würzmittel",
@@ -30882,7 +30882,7 @@
       "pinyin": "cù"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sour",
         "german": "Sauer",
@@ -30941,7 +30941,7 @@
       "pinyin": "yóu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Cooking",
         "german": "Kochen",
@@ -31000,7 +31000,7 @@
       "pinyin": "nǎi yóu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Dairy",
         "german": "Milchprodukte",
@@ -31059,7 +31059,7 @@
       "pinyin": "huǒ tuǐ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pork",
         "german": "Schweinefleisch",
@@ -31118,7 +31118,7 @@
       "pinyin": "péi gēn"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pork",
         "german": "Schweinefleisch",
@@ -31177,7 +31177,7 @@
       "pinyin": "xiāng cháng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Meat",
         "german": "Fleisch",
@@ -31236,7 +31236,7 @@
       "pinyin": "huǒ jī"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Poultry",
         "german": "Geflügel",
@@ -31295,7 +31295,7 @@
       "pinyin": "niú ròu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Meat",
         "german": "Fleisch",
@@ -31354,7 +31354,7 @@
       "pinyin": "zhū ròu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Meat",
         "german": "Fleisch",
@@ -31413,7 +31413,7 @@
       "pinyin": "yáng ròu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Meat",
         "german": "Fleisch",
@@ -31472,7 +31472,7 @@
       "pinyin": "xiā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Seafood",
         "german": "Meeresfrüchte",
@@ -31531,7 +31531,7 @@
       "pinyin": "lóng xiā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Seafood",
         "german": "Meeresfrüchte",
@@ -31590,7 +31590,7 @@
       "pinyin": "páng xiè"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Seafood",
         "german": "Meeresfrüchte",
@@ -31649,7 +31649,7 @@
       "pinyin": "cǎo méi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Red",
         "german": "Rot",
@@ -31708,7 +31708,7 @@
       "pinyin": "lán méi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Blue",
         "german": "Blau",
@@ -31767,7 +31767,7 @@
       "pinyin": "fù pén zi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Red",
         "german": "Rot",
@@ -31826,7 +31826,7 @@
       "pinyin": "hēi méi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Black",
         "german": "Schwarz",
@@ -31885,7 +31885,7 @@
       "pinyin": "màn yuè méi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Red",
         "german": "Rot",
@@ -31944,7 +31944,7 @@
       "pinyin": "yīng táo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Red",
         "german": "Rot",
@@ -32003,7 +32003,7 @@
       "pinyin": "pú táo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Purple",
         "german": "Lila",
@@ -32062,7 +32062,7 @@
       "pinyin": "qí yì guǒ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -32121,7 +32121,7 @@
       "pinyin": "níng méng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Yellow",
         "german": "Gelb",
@@ -32180,7 +32180,7 @@
       "pinyin": "suān chéng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -32239,7 +32239,7 @@
       "pinyin": "pú táo yòu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pink",
         "german": "Rosa",
@@ -32298,7 +32298,7 @@
       "pinyin": "bō luó"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Tropical",
         "german": "Tropisch",
@@ -32357,7 +32357,7 @@
       "pinyin": "máng guǒ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Yellow",
         "german": "Gelb",
@@ -32416,7 +32416,7 @@
       "pinyin": "fān mù guā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Tropical",
         "german": "Tropisch",
@@ -32475,7 +32475,7 @@
       "pinyin": "yē zǐ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Tropical",
         "german": "Tropisch",
@@ -32534,7 +32534,7 @@
       "pinyin": "táo zi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Orange",
         "german": "Orange",
@@ -32593,7 +32593,7 @@
       "pinyin": "lǐ zi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Purple",
         "german": "Lila",
@@ -32652,7 +32652,7 @@
       "pinyin": "xìng zi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Orange",
         "german": "Orange",
@@ -32711,7 +32711,7 @@
       "pinyin": "yóu táo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Orange",
         "german": "Orange",
@@ -32770,7 +32770,7 @@
       "pinyin": "lí"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -32829,7 +32829,7 @@
       "pinyin": "guā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -32888,7 +32888,7 @@
       "pinyin": "xī guā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -32947,7 +32947,7 @@
       "pinyin": "hā mì guā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -33006,7 +33006,7 @@
       "pinyin": "bái lán guā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -33065,7 +33065,7 @@
       "pinyin": "è lí"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -33124,7 +33124,7 @@
       "pinyin": "zǎo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -33183,7 +33183,7 @@
       "pinyin": "wú huā guǒ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -33242,7 +33242,7 @@
       "pinyin": "lǐ zi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -33301,7 +33301,7 @@
       "pinyin": "pú táo gān"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweet",
         "german": "Süß",
@@ -33360,7 +33360,7 @@
       "pinyin": "gǎn lǎn"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -33419,7 +33419,7 @@
       "pinyin": "shí liú"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Red",
         "german": "Rot",
@@ -33478,7 +33478,7 @@
       "pinyin": "shì zi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Orange",
         "german": "Orange",
@@ -33537,7 +33537,7 @@
       "pinyin": "huǒ lóng guǒ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pink",
         "german": "Rosa",
@@ -33596,7 +33596,7 @@
       "pinyin": "yáng táo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Yellow",
         "german": "Gelb",
@@ -33655,7 +33655,7 @@
       "pinyin": "bǎi xiāng guǒ"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Purple",
         "german": "Lila",
@@ -33714,7 +33714,7 @@
       "pinyin": "lì zhī"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pink",
         "german": "Rosa",
@@ -33773,7 +33773,7 @@
       "pinyin": "jīn jú"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Citrus",
         "german": "Zitrusfrucht",
@@ -33832,7 +33832,7 @@
       "pinyin": "lú sǔn"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -33891,7 +33891,7 @@
       "pinyin": "yáng jì"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Thorny",
         "german": "Dornig",
@@ -33950,7 +33950,7 @@
       "pinyin": "qié zi"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Purple",
         "german": "Lila",
@@ -34009,7 +34009,7 @@
       "pinyin": "xī hú lu"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -34068,7 +34068,7 @@
       "pinyin": "nán guā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Orange",
         "german": "Orange",
@@ -34127,7 +34127,7 @@
       "pinyin": "nán guā"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Orange",
         "german": "Orange",
@@ -34186,7 +34186,7 @@
       "pinyin": "juǎn xīn cài"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Salad",
         "german": "Salat",
@@ -34245,7 +34245,7 @@
       "pinyin": "huā yē cài"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "White",
         "german": "Weiß",
@@ -34304,7 +34304,7 @@
       "pinyin": "gān lán"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -34363,7 +34363,7 @@
       "pinyin": "yǔ yī gān lán"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -34422,7 +34422,7 @@
       "pinyin": "qín cài"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Stalk",
         "german": "Stiel",
@@ -34481,7 +34481,7 @@
       "pinyin": "huí xiāng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Bulb",
         "german": "Knolle",
@@ -34540,7 +34540,7 @@
       "pinyin": "luó bo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Crunchy",
         "german": "Knackig",
@@ -34599,7 +34599,7 @@
       "pinyin": "dà tóu cài"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Root",
         "german": "Wurzel",
@@ -34658,7 +34658,7 @@
       "pinyin": "wú jīng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Root",
         "german": "Wurzel",
@@ -34717,7 +34717,7 @@
       "pinyin": "ōu zhōu fáng fēng cǎo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Root",
         "german": "Wurzel",
@@ -34776,7 +34776,7 @@
       "pinyin": "tián cài gēn"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Root",
         "german": "Wurzel",
@@ -34835,7 +34835,7 @@
       "pinyin": "jiāng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Spicy",
         "german": "Scharf",
@@ -34894,7 +34894,7 @@
       "pinyin": "shān kuí"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Spicy",
         "german": "Scharf",
@@ -34953,7 +34953,7 @@
       "pinyin": "jiè mò"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Spicy",
         "german": "Scharf",
@@ -35012,7 +35012,7 @@
       "pinyin": "jiǔ cài"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -35071,7 +35071,7 @@
       "pinyin": "cōng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -35130,7 +35130,7 @@
       "pinyin": "xì xiāng cōng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -35189,7 +35189,7 @@
       "pinyin": "ōu qín"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -35248,7 +35248,7 @@
       "pinyin": "xiāng cài"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -35307,7 +35307,7 @@
       "pinyin": "luó lè"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -35366,7 +35366,7 @@
       "pinyin": "bò he"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Green",
         "german": "Grün",
@@ -35425,7 +35425,7 @@
       "pinyin": "mí dié xiāng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Herb",
         "german": "Kräuter",
@@ -35484,7 +35484,7 @@
       "pinyin": "bǎi lǐ xiāng"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Herb",
         "german": "Kräuter",
@@ -35543,7 +35543,7 @@
       "pinyin": "niú zhì"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Herb",
         "german": "Kräuter",
@@ -35602,7 +35602,7 @@
       "pinyin": "shǔ wěi cǎo"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Herb",
         "german": "Kräuter",
@@ -35661,7 +35661,7 @@
       "pinyin": "shí luó"
     },
     "category": "food and drinks",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Herb",
         "german": "Kräuter",
@@ -35720,7 +35720,7 @@
       "pinyin": "kuài lè"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Smile",
         "german": "Lächeln",
@@ -35779,7 +35779,7 @@
       "pinyin": "bēi shāng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Tears",
         "german": "Tränen",
@@ -35838,7 +35838,7 @@
       "pinyin": "kǒng jù"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Phobia",
         "german": "Phobie",
@@ -35897,7 +35897,7 @@
       "pinyin": "fèn nù"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Rage",
         "german": "Raserei",
@@ -35956,7 +35956,7 @@
       "pinyin": "yàn wù"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Revulsion",
         "german": "Abscheu",
@@ -36015,7 +36015,7 @@
       "pinyin": "jīng xǐ"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Shock",
         "german": "Schock",
@@ -36074,7 +36074,7 @@
       "pinyin": "ài"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Affection",
         "german": "Zuneigung",
@@ -36133,7 +36133,7 @@
       "pinyin": "zēng hèn"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Loathe",
         "german": "Verabscheuen",
@@ -36192,7 +36192,7 @@
       "pinyin": "jí dù"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Envy",
         "german": "Neid",
@@ -36251,7 +36251,7 @@
       "pinyin": "xiàn mù"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Jealousy",
         "german": "Eifersucht",
@@ -36310,7 +36310,7 @@
       "pinyin": "nèi jiù"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Remorse",
         "german": "Reue",
@@ -36369,7 +36369,7 @@
       "pinyin": "xiū chǐ"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Embarrassment",
         "german": "Peinlichkeit",
@@ -36428,7 +36428,7 @@
       "pinyin": "jiāo ào"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Self-esteem",
         "german": "Selbstwertgefühl",
@@ -36487,7 +36487,7 @@
       "pinyin": "gān gà"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Shame",
         "german": "Scham",
@@ -36546,7 +36546,7 @@
       "pinyin": "hào qí xīn"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Inquisitiveness",
         "german": "Wissbegierde",
@@ -36605,7 +36605,7 @@
       "pinyin": "wú liáo"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Monotony",
         "german": "Monotonie",
@@ -36664,7 +36664,7 @@
       "pinyin": "jī dòng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Thrill",
         "german": "Kick",
@@ -36723,7 +36723,7 @@
       "pinyin": "jiāo lǜ"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Worry",
         "german": "Sorge",
@@ -36782,7 +36782,7 @@
       "pinyin": "yì yù zhèng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sadness",
         "german": "Traurigkeit",
@@ -36841,7 +36841,7 @@
       "pinyin": "gū dú"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Isolation",
         "german": "Isolation",
@@ -36900,7 +36900,7 @@
       "pinyin": "gǎn jī"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Ingratitude",
         "german": "Undankbarkeit",
@@ -36959,7 +36959,7 @@
       "pinyin": "xī wàng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Desperation",
         "german": "Verzweiflung",
@@ -37018,7 +37018,7 @@
       "pinyin": "jué wàng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Hope",
         "german": "Hoffnung",
@@ -37077,7 +37077,7 @@
       "pinyin": "kùn huò"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Clarity",
         "german": "Klarheit",
@@ -37136,7 +37136,7 @@
       "pinyin": "huái yí"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Certainty",
         "german": "Gewissheit",
@@ -37195,7 +37195,7 @@
       "pinyin": "jiě tuō"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Burden",
         "german": "Last",
@@ -37254,7 +37254,7 @@
       "pinyin": "mǎn zú"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Discontentment",
         "german": "Unzufriedenheit",
@@ -37313,7 +37313,7 @@
       "pinyin": "yú lè"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Boredom",
         "german": "Langeweile",
@@ -37372,7 +37372,7 @@
       "pinyin": "xǐ yuè"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sorrow",
         "german": "Trauer",
@@ -37431,7 +37431,7 @@
       "pinyin": "hé píng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Conflict",
         "german": "Konflikt",
@@ -37490,7 +37490,7 @@
       "pinyin": "mǎn yì"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Dissatisfaction",
         "german": "Unzufriedenheit",
@@ -37549,7 +37549,7 @@
       "pinyin": "jī dòng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Calmness",
         "german": "Ruhe",
@@ -37608,7 +37608,7 @@
       "pinyin": "nǎo nù"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pleasure",
         "german": "Vergnügen",
@@ -37667,7 +37667,7 @@
       "pinyin": "kǔ sè"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sweetness",
         "german": "Süße",
@@ -37726,7 +37726,7 @@
       "pinyin": "pī pàn xìng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Acceptance",
         "german": "Akzeptanz",
@@ -37785,7 +37785,7 @@
       "pinyin": "yuàn hèn"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Forgiveness",
         "german": "Vergebung",
@@ -37844,7 +37844,7 @@
       "pinyin": "jīng yà"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Expectation",
         "german": "Erwartung",
@@ -37903,7 +37903,7 @@
       "pinyin": "gāo xìng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sadness",
         "german": "Traurigkeit",
@@ -37962,7 +37962,7 @@
       "pinyin": "mí liàn"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Disenchantment",
         "german": "Desillusionierung",
@@ -38021,7 +38021,7 @@
       "pinyin": "jīng qí"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Indifference",
         "german": "Gleichgültigkeit",
@@ -38080,7 +38080,7 @@
       "pinyin": "chuàng zào lì"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Stagnation",
         "german": "Stillstand",
@@ -38139,7 +38139,7 @@
       "pinyin": "jué xīn"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Indecision",
         "german": "Unentschlossenheit",
@@ -38198,7 +38198,7 @@
       "pinyin": "zhuān zhù"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Distraction",
         "german": "Ablenkung",
@@ -38257,7 +38257,7 @@
       "pinyin": "jiàn kāng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Illness",
         "german": "Krankheit",
@@ -38316,7 +38316,7 @@
       "pinyin": "dòng lì"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Apathy",
         "german": "Apathie",
@@ -38375,7 +38375,7 @@
       "pinyin": "xīn suì"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Happiness",
         "german": "Glück",
@@ -38434,7 +38434,7 @@
       "pinyin": "bēi shāng"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Happiness",
         "german": "Glück",
@@ -38493,7 +38493,7 @@
       "pinyin": "shī qù"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Gain",
         "german": "Gewinn",
@@ -38552,7 +38552,7 @@
       "pinyin": "má fan"
     },
     "category": "emotions",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Peace",
         "german": "Frieden",
@@ -38611,7 +38611,7 @@
       "pinyin": "yuè dú"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Book",
         "german": "Buch",
@@ -38670,7 +38670,7 @@
       "pinyin": "pēng rèn"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Recipe",
         "german": "Rezept",
@@ -38729,7 +38729,7 @@
       "pinyin": "yuán yì"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Plant",
         "german": "Pflanze",
@@ -38788,7 +38788,7 @@
       "pinyin": "biān zhī"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Yarn",
         "german": "Garn",
@@ -38847,7 +38847,7 @@
       "pinyin": "huì huà"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Canvas",
         "german": "Leinwand",
@@ -38906,7 +38906,7 @@
       "pinyin": "shè yǐng"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Camera",
         "german": "Kamera",
@@ -38965,7 +38965,7 @@
       "pinyin": "xiě zuò"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pen",
         "german": "Stift",
@@ -39024,7 +39024,7 @@
       "pinyin": "chàng gē"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Song",
         "german": "Lied",
@@ -39083,7 +39083,7 @@
       "pinyin": "tiào wǔ"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Music",
         "german": "Musik",
@@ -39142,7 +39142,7 @@
       "pinyin": "yǎn zòu yuè qì"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Guitar",
         "german": "Gitarre",
@@ -39201,7 +39201,7 @@
       "pinyin": "guó jì xiàng qí"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "King",
         "german": "König",
@@ -39260,7 +39260,7 @@
       "pinyin": "shù dú"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Grid",
         "german": "Gitter",
@@ -39319,7 +39319,7 @@
       "pinyin": "zòng héng tián zì yóu xì"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Clue",
         "german": "Hinweis",
@@ -39378,7 +39378,7 @@
       "pinyin": "diàn zǐ yóu xì"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Console",
         "german": "Konsole",
@@ -39437,7 +39437,7 @@
       "pinyin": "zhuō yóu"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Dice",
         "german": "Würfel",
@@ -39496,7 +39496,7 @@
       "pinyin": "zhǐ pái yóu xì"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Deck",
         "german": "Stapel",
@@ -39555,7 +39555,7 @@
       "pinyin": "jiǎn tiē bù"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Memories",
         "german": "Erinnerungen",
@@ -39614,7 +39614,7 @@
       "pinyin": "zhé zhǐ"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Paper",
         "german": "Papier",
@@ -39673,7 +39673,7 @@
       "pinyin": "huà huà"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Pencil",
         "german": "Bleistift",
@@ -39732,7 +39732,7 @@
       "pinyin": "tú bù lǚ xíng"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Mountains",
         "german": "Berge",
@@ -39791,7 +39791,7 @@
       "pinyin": "lù yíng"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Tent",
         "german": "Zelt",
@@ -39850,7 +39850,7 @@
       "pinyin": "diào yú"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Fish",
         "german": "Fisch",
@@ -39909,7 +39909,7 @@
       "pinyin": "yú jiā"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Meditation",
         "german": "Meditation",
@@ -39968,7 +39968,7 @@
       "pinyin": "míng xiǎng"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Relaxation",
         "german": "Entspannung",
@@ -40027,7 +40027,7 @@
       "pinyin": "hōng bèi"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Oven",
         "german": "Ofen",
@@ -40086,7 +40086,7 @@
       "pinyin": "féng rèn"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Needle",
         "german": "Nadel",
@@ -40145,7 +40145,7 @@
       "pinyin": "gōu zhēn biān zhī"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Yarn",
         "german": "Garn",
@@ -40204,7 +40204,7 @@
       "pinyin": "táo yì"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Clay",
         "german": "Ton",
@@ -40263,7 +40263,7 @@
       "pinyin": "zhū bǎo zhì zuò"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Beads",
         "german": "Perlen",
@@ -40322,7 +40322,7 @@
       "pinyin": "zhì zuò là zhú"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Wax",
         "german": "Wachs",
@@ -40381,7 +40381,7 @@
       "pinyin": "zhì zào"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Lye",
         "german": "Lauge",
@@ -40440,7 +40440,7 @@
       "pinyin": "mù gōng"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Saw",
         "german": "Säge",
@@ -40499,7 +40499,7 @@
       "pinyin": "guān niǎo"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Binoculars",
         "german": "Fernglas",
@@ -40558,7 +40558,7 @@
       "pinyin": "tiān wén xué"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Telescope",
         "german": "Teleskop",
@@ -40617,7 +40617,7 @@
       "pinyin": "mó shù"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Illusion",
         "german": "Illusion",
@@ -40676,7 +40676,7 @@
       "pinyin": "zá shuǎ"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Balls",
         "german": "Bälle",
@@ -40735,7 +40735,7 @@
       "pinyin": "bǎo líng qiú"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Strike",
         "german": "Strike",
@@ -40794,7 +40794,7 @@
       "pinyin": "fēi biāo"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Bullseye",
         "german": "Bullseye",
@@ -40853,7 +40853,7 @@
       "pinyin": "tái qiú"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Cue",
         "german": "Kö",
@@ -40912,7 +40912,7 @@
       "pinyin": "pīng pāng qiú"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Paddle",
         "german": "Schläger",
@@ -40971,7 +40971,7 @@
       "pinyin": "kǎ lā OK"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Sing",
         "german": "Sing",
@@ -41030,7 +41030,7 @@
       "pinyin": "bō kè"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Audio",
         "german": "Audio",
@@ -41089,7 +41089,7 @@
       "pinyin": "bó kè"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Write",
         "german": "Schreiben",
@@ -41148,7 +41148,7 @@
       "pinyin": "shì pín bó kè"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Video",
         "german": "Video",
@@ -41207,7 +41207,7 @@
       "pinyin": "zhì yuàn zhě gōng zuò"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Help",
         "german": "Hilfe",
@@ -41266,7 +41266,7 @@
       "pinyin": "lǚ xíng"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Explore",
         "german": "Erkunden",
@@ -41325,7 +41325,7 @@
       "pinyin": "xué xí yī mén yǔ yán"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Study",
         "german": "Studium",
@@ -41384,7 +41384,7 @@
       "pinyin": "jiā pǔ xué"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Ancestry",
         "german": "Abstammung",
@@ -41443,7 +41443,7 @@
       "pinyin": "shōu cáng"
     },
     "category": "hobbies",
-    "taboo": [
+    "forbidden": [
       {
         "english": "Collect",
         "german": "Sammeln",
