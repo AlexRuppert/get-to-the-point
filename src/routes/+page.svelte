@@ -17,7 +17,7 @@
   import StatusHeader from '$lib/components/StatusHeader.svelte'
   import CardDeck from '$lib/components/CardDeck.svelte'
   import { enhanceCardInfo, startRound } from '$lib/logic/game'
-  import { onMount } from 'svelte/internal'
+  import { onMount } from 'svelte'
 
   let currentCard: CardDataEnriched
   let cardDeck: CardDeck
