@@ -54,6 +54,8 @@ export const settings: Writable<GameSettings> = localStorageStore('get_to_the_po
   excludeCategories: []
 })
 
+
+
 let initialGameState = initGame()
 export const gameState: Writable<GameState> = writable(initialGameState)
 

@@ -24,7 +24,8 @@ export default defineConfig({
             purpose: 'any maskable'
           }
         ],
-        theme_color: '#fff',
+        theme_color: '#ffffff',
+        "background_color": "#ffffff",
         display: 'standalone'
       },
       workbox: {
