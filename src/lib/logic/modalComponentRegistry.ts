@@ -1,4 +1,5 @@
 import SettingsModal from '$lib/components/SettingsModal.svelte'
+//@ts-ignore
 import type { ModalComponent } from '@skeletonlabs/skeleton/index'
 
 export const modalComponentRegistry: Record<string, ModalComponent> = {
@@ -11,6 +12,4 @@ export const modalComponentRegistry: Record<string, ModalComponent> = {
     // Provide a template literal for the default component slot
     slot: ''
   }
-
-
 }

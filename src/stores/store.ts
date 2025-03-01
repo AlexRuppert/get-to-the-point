@@ -1,7 +1,7 @@
 import { get, writable, type Writable } from 'svelte/store'
 import * as allCardsJson from '../assets/cards.json'
 import { initGame, initRound } from '$lib/logic/game'
-import { localStorageStore } from '@skeletonlabs/skeleton';
+import { localStorageStore } from '@skeletonlabs/skeleton'
 export interface WordData {
   english: string
   german: string
@@ -19,16 +19,14 @@ export interface CardDataEnriched extends CardData {
 
 export interface GameState {
   currentCardIndex: number
-  currentTeam: Teams
+  currentTeam: string
 }
 
-export type Teams = 'Team A' | 'Team 1'
 export interface RoundState {
   hasStarted: boolean
   pointsEarned: number
   startTime: Date
   totalSeconds: number
-
 }
 
 export interface GameSettings {
@@ -37,6 +35,12 @@ export interface GameSettings {
     english: boolean
     chinese: boolean
   }
+  difficulties: {
+    easy: boolean
+    medium: boolean
+    hard: boolean
+  }
+  forbiddenWords: number
   secondsPerRound: number
   secondsPenaltyForSkip: number
   excludeCategories: string[]
@@ -49,12 +53,16 @@ export const settings: Writable<GameSettings> = localStorageStore('get_to_the_po
     english: true,
     chinese: true
   },
+  difficulties: {
+    easy: true,
+    medium: false,
+    hard: false
+  },
+  forbiddenWords: 5,
   secondsPerRound: 150,
-  secondsPenaltyForSkip: 10,
+  secondsPenaltyForSkip: 1,
   excludeCategories: []
 })
-
-
 
 let initialGameState = initGame()
 export const gameState: Writable<GameState> = writable(initialGameState)
@@ -62,3 +70,5 @@ export const gameState: Writable<GameState> = writable(initialGameState)
 export const roundState: Writable<RoundState> = writable(initRound(get(settings)))
 
 export const cardList: Writable<CardDataEnriched[]> = writable([])
+
+export const resetGameTriggered: Writable<boolean> = writable(false)

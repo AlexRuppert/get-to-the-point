@@ -9,25 +9,19 @@
   import { settings, allCards } from '../../stores/store'
   import { onMount } from 'svelte'
   import { unique } from '$lib/logic/utils'
-
+  import { resetGame } from '$lib/logic/game'
+  import { tick } from 'svelte'
   // Form Data
-  let formData: GameSettings = {
-    languages: {
-      german: true,
-      english: true,
-      chinese: true
-    },
-    secondsPerRound: 150,
-    secondsPenaltyForSkip: 10,
-    excludeCategories: []
-  }
+  let formData: GameSettings = $settings
 
   // We've created a custom submit function to pass the response and close the modal.
-  function onFormSubmit(): void {
+  async function onFormSubmit() {
     formData.excludeCategories = categories.filter((c) => !c.enabled).map((c) => c.category)
     $settings = formData
+
     if ($modalStore[0].response) $modalStore[0].response(formData)
     modalStore.close()
+    resetGame()
   }
   let categories: { category: string; enabled: boolean }[] = []
   onMount(() => {
@@ -87,12 +81,12 @@
           <h2 class="text-xl font-semibold mb-5">Languages</h2>
           <div class="space-y-3">
             <label class="flex items-center space-x-2">
-              <input class="checkbox" type="checkbox" bind:checked={formData.languages.english} />
-              <p>English</p>
-            </label>
-            <label class="flex items-center space-x-2">
               <input class="checkbox" type="checkbox" bind:checked={formData.languages.german} />
               <p>German</p>
+            </label>
+            <label class="flex items-center space-x-2">
+              <input class="checkbox" type="checkbox" bind:checked={formData.languages.english} />
+              <p>English</p>
             </label>
             <label class="flex items-center space-x-2">
               <input class="checkbox" type="checkbox" bind:checked={formData.languages.chinese} />
@@ -101,6 +95,41 @@
           </div>
         </div>
 
+        <div>
+          <h2 class="text-xl font-semibold mb-5">Difficulties</h2>
+          <div class="space-y-3">
+            <label class="flex items-center space-x-2">
+              <input class="checkbox" type="checkbox" bind:checked={formData.difficulties.easy} />
+              <p>Easy</p>
+            </label>
+            <label class="flex items-center space-x-2">
+              <input class="checkbox" type="checkbox" bind:checked={formData.difficulties.medium} />
+              <p>Medium</p>
+            </label>
+            <label class="flex items-center space-x-2">
+              <input class="checkbox" type="checkbox" bind:checked={formData.difficulties.hard} />
+              <p>Hard</p>
+            </label>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-xl font-semibold mb-5">Forbidden Words</h2>
+          <div class="space-y-3 pr-5">
+            <RangeSlider
+              name="range-slider"
+              bind:value={formData.forbiddenWords}
+              min={0}
+              max={8}
+              step={1}
+              ticked
+            >
+              <div class="flex justify-between items-center">
+                <div class=""></div>
+                <div class="text-xs">{formData.forbiddenWords}</div>
+              </div>
+            </RangeSlider>
+          </div>
+        </div>
         <div>
           <h2 class="text-xl font-semibold mb-5">Categories</h2>
 

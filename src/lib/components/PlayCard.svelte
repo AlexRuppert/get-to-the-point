@@ -38,14 +38,16 @@
   }
 </script>
 
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<!-- svelte-ignore a11y_click_events_have_key_events -->
 <div class={clazz(containerCardClass, 'container-card drop-shadow-md')} on:click>
   <div
-    class={clazz(containerCardInnerClass, 'container-card-inner relative w-full h-max transform')}
+    class={clazz(containerCardInnerClass, 'container-card-inner relative w-full h-full transform')}
     class:enableTransition
     class:flipped={!isUp}
     on:pointerdown={handleCardTap}
   >
-    <div class={clazz(frontCardClass, 'front-card  w-full h-fit backface-invisible')}>
+    <div class={clazz(frontCardClass, 'front-card  w-full h-full backface-invisible')}>
       <slot name="front" />
     </div>
     <div class={clazz(backCardClass, 'back-card absolute inset-0 backface-invisible')}>

@@ -7,24 +7,31 @@
     gameState,
     roundState,
     type CardDataEnriched,
-    cardList
+    cardList,
+    resetGameTriggered
   } from '../stores/store'
 
-  setModeCurrent(true)
-
   import { fisherYatesShuffle } from '$lib/logic/utils'
-
   import StatusHeader from '$lib/components/StatusHeader.svelte'
   import CardDeck from '$lib/components/CardDeck.svelte'
   import { enhanceCardInfo, startRound } from '$lib/logic/game'
   import { onMount } from 'svelte'
+  setModeCurrent(true)
 
   let currentCard: CardDataEnriched
   let cardDeck: CardDeck
+
+  let flashWrong = false
+
+  let flashFine = false
   reShuffle()
 
   function answerWrong() {
     if (!$roundState.hasStarted) return
+    flashWrong = true
+    setTimeout(() => {
+      flashWrong = false
+    }, 200)
     $roundState.pointsEarned--
     $roundState.pointsEarned = Math.max($roundState.pointsEarned, 0)
     nextCard()
@@ -39,6 +46,10 @@
   }
   function answerFine() {
     if (!$roundState.hasStarted) return
+    flashFine = true
+    setTimeout(() => {
+      flashFine = false
+    }, 200)
     $roundState.pointsEarned++
     nextCard()
   }
@@ -46,9 +57,8 @@
   function reShuffle() {
     $cardList = fisherYatesShuffle(
       $allCards.filter((c) => !$settings.excludeCategories.includes(c.category))
-    ).map(enhanceCardInfo)
-    console.log(cardList)
-    console.log($settings.excludeCategories.includes('animals'))
+    ).map((card) => enhanceCardInfo(card, $settings))
+
     currentCard = $cardList[0]
   }
   function advanceCards() {
@@ -61,9 +71,10 @@
   }
 
   async function nextCard() {
-    if (cardDeck) cardDeck.drawnNewCard()
+    if (cardDeck) await cardDeck.drawnNewCard()
     advanceCards()
   }
+
   async function resetCards() {
     if (cardDeck) await cardDeck.drawnNewCardClosed()
     advanceCards()
@@ -87,6 +98,18 @@
       resetCards()
     }
   }
+
+  $: {
+    if ($resetGameTriggered) {
+      console.log('trigg')
+      ;(async () => {
+        reShuffle()
+        advanceCards()
+      })()
+      console.log(currentCard)
+      $resetGameTriggered = false
+    }
+  }
   let mounted = false
   onMount(async () => {
     setTimeout(() => {
@@ -95,11 +118,14 @@
   })
 </script>
 
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
-
-<div class="flex h-full mx-auto max-w-md justify-center items-center">
+<div
+  class="flex h-full mx-auto max-w-md justify-center items-center transition-colors"
+  class:bg-red-400={flashWrong}
+  class:bg-green-400={flashFine}
+>
   <div class="flex flex-col h-full w-full select-none">
     <StatusHeader />
+
     <CardDeck
       bind:this={cardDeck}
       on:answerSkipped={answerSkipped}
@@ -107,6 +133,7 @@
       on:tapCard={handleCardBackTap}
       {currentCard}
     />
+
     <ButtonFooter
       on:answerWrong={answerWrong}
       on:answerSkipped={answerSkipped}

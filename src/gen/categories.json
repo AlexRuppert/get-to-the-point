@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Nature",
+    "description": "Elements of the natural world, including animals, plants, and weather phenomena."
+  },
+  {
+    "name": "Professions",
+    "description": "Common jobs, roles, or occupations across various industries."
+  },
+  {
+    "name": "Daily Activities",
+    "description": "Routine actions or tasks performed in everyday life."
+  },
+  {
+    "name": "Items & Gadgets",
+    "description": "Household items, daily items, devices, tools"
+  },
+  {
+    "name": "Food & Cooking",
+    "description": "Edible items, dishes, ingredients, and culinary processes."
+  },
+  {
+    "name": "Emotions & Feelings",
+    "description": "Human emotional states and psychological experiences."
+  },
+  {
+    "name": "Arts & Entertainment",
+    "description": "Creative expressions, performances, leisure activities, pop-culture"
+  },
+  {
+    "name": "Clothing & Accessories",
+    "description": "Apparel, garments, and wearable items across cultures."
+  },
+  {
+    "name": "Sports & Fitness",
+    "description": "Physical activities, competitive games, and exercise routines."
+  },
+  {
+    "name": "Hobbies & Pastimes",
+    "description": "Recreational activities and personal interests for leisure."
+  }
+]
