@@ -64,7 +64,7 @@
     >
   </div>
   <div class="h-full w-full relative">
-    <div class=" w-full h-[calc(100%_-_12px)] flex self-start items-center">
+    <div class=" w-full h-[calc(100%_-_12px)] flex justify-between items-center">
       <div class="flex place-items-center w-full pl-2 space-x-2">
         <span class="small-caps" style:color={getTeamColorHex($gameState.currentTeam)}>Team</span>
         <span class="text-xl tabular-nums" style:color={getTeamColorHex($gameState.currentTeam)}
@@ -72,11 +72,11 @@
         >
       </div>
 
-      <div class="flex place-items-center w-full px-2 space-x-2">
-        <span class="small-caps">Points</span>
-        <span class="text-2xl tabular-nums w-[2ch]"
+      <div class="flex place-items-center justify-end w-full px-2 space-x-2">
+        <span class="text-2xl text-right tabular-nums w-[2ch]"
           >{$roundState.hasStarted ? $roundState.pointsEarned : oldPoints}</span
         >
+        <span class="small-caps">Points</span>
       </div>
     </div>
     <div class="absolute bottom-0 -left-px right-0">

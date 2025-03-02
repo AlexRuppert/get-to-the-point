@@ -3,14 +3,15 @@ import * as allCardsJson from '../assets/cards.json'
 import { initGame, initRound } from '$lib/logic/game'
 import { localStorageStore } from '@skeletonlabs/skeleton'
 export interface WordData {
-  english: string
-  german: string
-  chinese: string
+  en: string
+  de: string
+  zh: string
   pinyin: string
 }
 export interface CardData {
-  target: WordData
+  word: WordData
   category: string
+  difficulty: number
   forbidden: WordData[]
 }
 export interface CardDataEnriched extends CardData {

@@ -36,9 +36,12 @@
   },
   "type": "module",
   "dependencies": {
+    "@dotenvx/dotenvx": "^1.38.3",
     "@mdi/js": "^7.4.47",
     "color-hash": "^2.0.2",
     "deepmerge": "^4.3.1",
+    "openai": "^4.86.1",
+    "radashi": "^12.3.4",
     "svelte-gestures": "^1.5.2"
   }
 }

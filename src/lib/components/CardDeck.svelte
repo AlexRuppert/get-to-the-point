@@ -91,19 +91,19 @@
             <div class="w-full target-words" style="--border-color: {currentCard.categoryColor}40">
               {#if $settings.languages.german}
                 <div class="py-2 font-medium text-center text-xl">
-                  {currentCard.target.german}
+                  {currentCard.word.de}
                 </div>
               {/if}
 
               {#if $settings.languages.english}
                 <div class="py-2 font-medium text-center text-xl">
-                  {currentCard.target.english}
+                  {currentCard.word.en}
                 </div>
               {/if}
               {#if $settings.languages.chinese}
                 <div class="">
-                  <div class="text-center text-2xl">{currentCard.target.chinese}</div>
-                  <div class="-mt-1 text-center text-sm">{currentCard.target.pinyin}</div>
+                  <div class="text-center text-2xl">{currentCard.word.zh}</div>
+                  <div class="-mt-1 text-center text-sm">{currentCard.word.pinyin}</div>
                 </div>
               {/if}
             </div>
@@ -120,15 +120,15 @@
                   class:w-full={$settings.languages.german || $settings.languages.english}
                 >
                   {#if $settings.languages.german}
-                    <div class="text-center text-md">{forbiddenWords.german}</div>
+                    <div class="text-center text-md">{forbiddenWords.de}</div>
                   {/if}
                   {#if $settings.languages.english}
-                    <div class="text-center text-md">{forbiddenWords.english}</div>
+                    <div class="text-center text-md">{forbiddenWords.en}</div>
                   {/if}
                 </div>
                 {#if $settings.languages.chinese}
                   <div class="w-full self-center">
-                    <div class="text-center text-xl">{forbiddenWords.chinese}</div>
+                    <div class="text-center text-xl">{forbiddenWords.zh}</div>
                     <div class="-mt-1 text-center text-xs">{forbiddenWords.pinyin}</div>
                   </div>
                 {/if}
