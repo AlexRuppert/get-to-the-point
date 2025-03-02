@@ -36,6 +36,7 @@ export function getHexColor(seed: string) {
 export function initRound(settings: GameSettings): RoundState {
   return {
     hasStarted: false,
+    oldPointsEarned: 0,
     pointsEarned: 0,
     startTime: new Date(),
     totalSeconds: settings.secondsPerRound

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { roundState, settings, type CardDataEnriched } from '../../stores/store'
+  import { gameState, roundState, settings, type CardDataEnriched } from '../../stores/store'
 
   import { pan } from 'svelte-gestures'
   import { spring } from 'svelte/motion'
@@ -62,7 +62,7 @@
   <PlayCard bind:this={playCard} bind:isUp containerCardClass="absolute inset-3" on:tapCard>
     <div
       slot="front"
-      class="bg-white rounded-lg shadow-md p-4 py-6 shadow-slate-400 transform translate-x-0 select-none origin-bottom h-full w-full"
+      class="bg-white rounded-lg shadow-md p-4 py-5 shadow-slate-400 transform translate-x-0 select-none origin-bottom h-full w-full"
       class:pointer-events-none={!isUp}
       style:--tw-translate-x={$cardTouchDelta.x + 'px'}
       style:--tw-rotate={$cardTouchDelta.x / 70 + 'deg'}
@@ -84,11 +84,11 @@
             {currentCard.category}
           </div>
         </div>
-        <div class="flex flex-col">
+        <div class="flex flex-col h-full">
           <div
-            class="flex flex-col space-y-2 w-full h-full min-h-[9.5em] py-5 target-word items-center justify-center tracking-wider leading-4"
+            class="flex basis-0 flex-col space-y-2 w-full h-full min-h-[8em] my-4 target-word items-center justify-center tracking-wider leading-4"
           >
-            <div class="w-full target-words" style="--border-color: {currentCard.categoryColor}">
+            <div class="w-full target-words" style="--border-color: {currentCard.categoryColor}40">
               {#if $settings.languages.german}
                 <div class="py-2 font-medium text-center text-xl">
                   {currentCard.target.german}
@@ -96,20 +96,22 @@
               {/if}
 
               {#if $settings.languages.english}
-                <div class="py-2 font-medium text-center text-xl">{currentCard.target.english}</div>
+                <div class="py-2 font-medium text-center text-xl">
+                  {currentCard.target.english}
+                </div>
               {/if}
               {#if $settings.languages.chinese}
-                <div class="py-2">
+                <div class="">
                   <div class="text-center text-2xl">{currentCard.target.chinese}</div>
                   <div class="-mt-1 text-center text-sm">{currentCard.target.pinyin}</div>
                 </div>
               {/if}
             </div>
           </div>
-          <div class="forbidden-words tracking-wider leading-4 h-full">
+          <div class="forbidden-words grow tracking-wider leading-4 h-full flex flex-col">
             {#each currentCard.forbidden as forbiddenWords, i}
               <div
-                class="flex align-middle justify-center p-1 min-h-[3em]"
+                class="flex align-middle justify-center p-0 min-h-[2em] max-h-[6em] h-full"
                 style:background-color={currentCard.categoryColor + (i % 2 == 0 ? '22' : '44')}
                 style:border-color={currentCard.categoryColor}
               >
@@ -125,7 +127,7 @@
                   {/if}
                 </div>
                 {#if $settings.languages.chinese}
-                  <div class="w-full">
+                  <div class="w-full self-center">
                     <div class="text-center text-xl">{forbiddenWords.chinese}</div>
                     <div class="-mt-1 text-center text-xs">{forbiddenWords.pinyin}</div>
                   </div>
@@ -138,15 +140,32 @@
     </div>
     <div
       slot="back"
-      class="rounded-lg shadow-md shadow-slate-400 back-card w-full h-full"
+      class="rounded-lg shadow-md shadow-slate-400 back-card w-full h-full relative"
       class:pointer-events-none={isUp}
-    ></div></PlayCard
+    >
+      <div class="h-full w-full absolute" class:hidden={$roundState.hasStarted}>
+        <div
+          class="h-full w-full flex flex-col space-y-5 place-items-center pt-16 text-secondary-800"
+        >
+          <div
+            class="bg-white/70 text-4xl p-4 rounded-lg self-center font-semibold border-2 border-blue-400"
+          >
+            You scored <span class="font-black text-red-800">{$roundState.oldPointsEarned}</span> points!
+          </div>
+          <div
+            class="bg-white/70 text-4xl p-4 rounded-lg self-center font-semibold border-2 border-blue-400"
+          >
+            Team <span class="font-black text-red-800">{$gameState.currentTeam}</span>'s turn!
+          </div>
+        </div>
+      </div>
+    </div></PlayCard
   >
 
   <div
-    class="absolute top-10 left-10 right-10 text-center p-1 rounded-full text-white text-xl opacity-0 pointer-events-none"
-    class:bg-secondary-500={$cardTouchDelta.x < 0}
-    class:bg-success-500={$cardTouchDelta.x > 0}
+    class="absolute top-10 left-10 right-10 text-center p-5 rounded-full shadow-lg shadow-slate-600 text-white text-3xl opacity-0 pointer-events-none font-black tracking-widest uppercase"
+    class:bg-slate-600={$cardTouchDelta.x < 0}
+    class:bg-green-600={$cardTouchDelta.x > 0}
     style:opacity={(+(Math.abs($cardTouchDelta.x) > CARD_SWIPE_THRESHOLD) *
       Math.abs($cardTouchDelta.x) -
       CARD_SWIPE_THRESHOLD) /

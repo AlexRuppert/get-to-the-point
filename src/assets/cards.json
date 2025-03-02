@@ -8753,5 +8753,1205 @@
         "pinyin": "diàn yuán"
       }
     ]
+  },
+  {
+    "target": {
+      "english": "Labeling Containers",
+      "german": "Behälter beschriften",
+      "chinese": "标记容器",
+      "pinyin": "biāo jì róng qì"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Label",
+        "german": "Etikett",
+        "chinese": "标签",
+        "pinyin": "biāo qiān"
+      },
+      {
+        "english": "Container",
+        "german": "Behälter",
+        "chinese": "容器",
+        "pinyin": "róng qì"
+      },
+      {
+        "english": "Marker",
+        "german": "Markierung",
+        "chinese": "记号",
+        "pinyin": "jì hào"
+      },
+      {
+        "english": "Write",
+        "german": "Schreiben",
+        "chinese": "写",
+        "pinyin": "xiě"
+      },
+      {
+        "english": "Identify",
+        "german": "Identifizieren",
+        "chinese": "识别",
+        "pinyin": "shí bié"
+      },
+      {
+        "english": "Organize",
+        "german": "Organisieren",
+        "chinese": "整理",
+        "pinyin": "zhěng lǐ"
+      },
+      {
+        "english": "Sticker",
+        "german": "Aufkleber",
+        "chinese": "贴纸",
+        "pinyin": "tiē zhǐ"
+      },
+      {
+        "english": "Name",
+        "german": "Name",
+        "chinese": "名字",
+        "pinyin": "míng zì"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Sorting Recycling",
+      "german": "Recycling sortieren",
+      "chinese": "分类回收",
+      "pinyin": "fēn lèi huí shōu"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Recycle",
+        "german": "Recyceln",
+        "chinese": "回收",
+        "pinyin": "huí shōu"
+      },
+      {
+        "english": "Sort",
+        "german": "Sortieren",
+        "chinese": "分类",
+        "pinyin": "fēn lèi"
+      },
+      {
+        "english": "Bin",
+        "german": "Mülleimer",
+        "chinese": "垃圾桶",
+        "pinyin": "lā jī tǒng"
+      },
+      {
+        "english": "Plastic",
+        "german": "Plastik",
+        "chinese": "塑料",
+        "pinyin": "sù liào"
+      },
+      {
+        "english": "Glass",
+        "german": "Glas",
+        "chinese": "玻璃",
+        "pinyin": "bō li"
+      },
+      {
+        "english": "Paper",
+        "german": "Papier",
+        "chinese": "纸",
+        "pinyin": "zhǐ"
+      },
+      {
+        "english": "Waste",
+        "german": "Abfall",
+        "chinese": "废物",
+        "pinyin": "fèi wù"
+      },
+      {
+        "english": "Separate",
+        "german": "Trennen",
+        "chinese": "分开",
+        "pinyin": "fēn kāi"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Breaking Down Boxes",
+      "german": "Kartons zerlegen",
+      "chinese": "拆箱子",
+      "pinyin": "chāi xiāng zi"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Box",
+        "german": "Karton",
+        "chinese": "箱子",
+        "pinyin": "xiāng zi"
+      },
+      {
+        "english": "Flatten",
+        "german": "Flachdrücken",
+        "chinese": "压平",
+        "pinyin": "yā píng"
+      },
+      {
+        "english": "Cardboard",
+        "german": "Pappe",
+        "chinese": "纸板",
+        "pinyin": "zhǐ bǎn"
+      },
+      {
+        "english": "Recycle",
+        "german": "Recyceln",
+        "chinese": "回收",
+        "pinyin": "huí shōu"
+      },
+      {
+        "english": "Tape",
+        "german": "Klebeband",
+        "chinese": "胶带",
+        "pinyin": "jiāo dài"
+      },
+      {
+        "english": "Fold",
+        "german": "Falten",
+        "chinese": "折叠",
+        "pinyin": "zhé dié"
+      },
+      {
+        "english": "Storage",
+        "german": "Lagerung",
+        "chinese": "储存",
+        "pinyin": "chǔ cún"
+      },
+      {
+        "english": "Disassemble",
+        "german": "Auseinandernehmen",
+        "chinese": "拆卸",
+        "pinyin": "chāi xiè"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Donating Clothes",
+      "german": "Kleidung spenden",
+      "chinese": "捐赠衣服",
+      "pinyin": "juān zèng yī fu"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Clothes",
+        "german": "Kleidung",
+        "chinese": "衣服",
+        "pinyin": "yī fu"
+      },
+      {
+        "english": "Donate",
+        "german": "Spenden",
+        "chinese": "捐赠",
+        "pinyin": "juān zèng"
+      },
+      {
+        "english": "Charity",
+        "german": "Wohltätigkeit",
+        "chinese": "慈善",
+        "pinyin": "cí shàn"
+      },
+      {
+        "english": "Secondhand",
+        "german": "Gebraucht",
+        "chinese": "二手",
+        "pinyin": "èr shǒu"
+      },
+      {
+        "english": "Give",
+        "german": "Geben",
+        "chinese": "给",
+        "pinyin": "gěi"
+      },
+      {
+        "english": "Used",
+        "german": "Benutzt",
+        "chinese": "用过的",
+        "pinyin": "yòng guò de"
+      },
+      {
+        "english": "Collection",
+        "german": "Sammlung",
+        "chinese": "收集",
+        "pinyin": "shōu jí"
+      },
+      {
+        "english": "Drop-off",
+        "german": "Abgabe",
+        "chinese": "投放",
+        "pinyin": "tóu fàng"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Filling Prescriptions",
+      "german": "Rezepte ausfüllen",
+      "chinese": "配药",
+      "pinyin": "pèi yào"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Prescription",
+        "german": "Rezept",
+        "chinese": "处方",
+        "pinyin": "chǔ fāng"
+      },
+      {
+        "english": "Pharmacy",
+        "german": "Apotheke",
+        "chinese": "药店",
+        "pinyin": "yào diàn"
+      },
+      {
+        "english": "Medicine",
+        "german": "Medizin",
+        "chinese": "药物",
+        "pinyin": "yào wù"
+      },
+      {
+        "english": "Doctor",
+        "german": "Arzt",
+        "chinese": "医生",
+        "pinyin": "yī shēng"
+      },
+      {
+        "english": "Refill",
+        "german": "Nachfüllen",
+        "chinese": "补充",
+        "pinyin": "bǔ chōng"
+      },
+      {
+        "english": "Drug",
+        "german": "Medikament",
+        "chinese": "药品",
+        "pinyin": "yào pǐn"
+      },
+      {
+        "english": "Label",
+        "german": "Etikett",
+        "chinese": "标签",
+        "pinyin": "biāo qiān"
+      },
+      {
+        "english": "Dosage",
+        "german": "Dosierung",
+        "chinese": "剂量",
+        "pinyin": "jì liàng"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Testing Blood Pressure",
+      "german": "Blutdruck messen",
+      "chinese": "测量血压",
+      "pinyin": "cè liáng xuè yā"
+    },
+    "difficulty": 2,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Blood",
+        "german": "Blut",
+        "chinese": "血液",
+        "pinyin": "xuè yè"
+      },
+      {
+        "english": "Pressure",
+        "german": "Druck",
+        "chinese": "压力",
+        "pinyin": "yā lì"
+      },
+      {
+        "english": "Cuff",
+        "german": "Manschette",
+        "chinese": "袖带",
+        "pinyin": "xiù dài"
+      },
+      {
+        "english": "Monitor",
+        "german": "Monitor",
+        "chinese": "监测器",
+        "pinyin": "jiān cè qì"
+      },
+      {
+        "english": "Heart",
+        "german": "Herz",
+        "chinese": "心脏",
+        "pinyin": "xīn zàng"
+      },
+      {
+        "english": "Health",
+        "german": "Gesundheit",
+        "chinese": "健康",
+        "pinyin": "jiàn kāng"
+      },
+      {
+        "english": "Measure",
+        "german": "Messen",
+        "chinese": "测量",
+        "pinyin": "cè liáng"
+      },
+      {
+        "english": "Hypertension",
+        "german": "Hypertonie",
+        "chinese": "高血压",
+        "pinyin": "gāo xuè yā"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Applying Band-Aids",
+      "german": "Pflaster anlegen",
+      "chinese": "贴创可贴",
+      "pinyin": "tiē chuāng kě tiē"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Band-Aid",
+        "german": "Pflaster",
+        "chinese": "创可贴",
+        "pinyin": "chuāng kě tiē"
+      },
+      {
+        "english": "Cut",
+        "german": "Schnitt",
+        "chinese": "伤口",
+        "pinyin": "shāng kǒu"
+      },
+      {
+        "english": "Wound",
+        "german": "Wunde",
+        "chinese": "创伤",
+        "pinyin": "chuāng shāng"
+      },
+      {
+        "english": "Adhesive",
+        "german": "Klebend",
+        "chinese": "粘性",
+        "pinyin": "nián xìng"
+      },
+      {
+        "english": "First Aid",
+        "german": "Erste Hilfe",
+        "chinese": "急救",
+        "pinyin": "jí jiù"
+      },
+      {
+        "english": "Protect",
+        "german": "Schützen",
+        "chinese": "保护",
+        "pinyin": "bǎo hù"
+      },
+      {
+        "english": "Heal",
+        "german": "Heilen",
+        "chinese": "愈合",
+        "pinyin": "yù hé"
+      },
+      {
+        "english": "Stick",
+        "german": "Kleben",
+        "chinese": "粘贴",
+        "pinyin": "zhān tiē"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Sterilizing Thermometer",
+      "german": "Thermometer sterilisieren",
+      "chinese": "消毒温度计",
+      "pinyin": "xiāo dú wēn dù jì"
+    },
+    "difficulty": 2,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Thermometer",
+        "german": "Thermometer",
+        "chinese": "温度计",
+        "pinyin": "wēn dù jì"
+      },
+      {
+        "english": "Sterilize",
+        "german": "Sterilisieren",
+        "chinese": "消毒",
+        "pinyin": "xiāo dú"
+      },
+      {
+        "english": "Clean",
+        "german": "Sauber",
+        "chinese": "清洁",
+        "pinyin": "qīng jié"
+      },
+      {
+        "english": "Germs",
+        "german": "Keime",
+        "chinese": "细菌",
+        "pinyin": "xì jūn"
+      },
+      {
+        "english": "Alcohol",
+        "german": "Alkohol",
+        "chinese": "酒精",
+        "pinyin": "jiǔ jīng"
+      },
+      {
+        "english": "Temperature",
+        "german": "Temperatur",
+        "chinese": "温度",
+        "pinyin": "wēn dù"
+      },
+      {
+        "english": "Hygiene",
+        "german": "Hygiene",
+        "chinese": "卫生",
+        "pinyin": "wèi shēng"
+      },
+      {
+        "english": "Disinfect",
+        "german": "Desinfizieren",
+        "chinese": "消毒",
+        "pinyin": "xiāo dú"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Fluffing Duvet",
+      "german": "Daunendecke aufschütteln",
+      "chinese": "拍松羽绒被",
+      "pinyin": "pāi sōng yǔ róng bèi"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Duvet",
+        "german": "Daunendecke",
+        "chinese": "羽绒被",
+        "pinyin": "yǔ róng bèi"
+      },
+      {
+        "english": "Fluff",
+        "german": "Auflockern",
+        "chinese": "拍松",
+        "pinyin": "pāi sōng"
+      },
+      {
+        "english": "Bed",
+        "german": "Bett",
+        "chinese": "床",
+        "pinyin": "chuáng"
+      },
+      {
+        "english": "Comfort",
+        "german": "Komfort",
+        "chinese": "舒适",
+        "pinyin": "shū shì"
+      },
+      {
+        "english": "Feathers",
+        "german": "Federn",
+        "chinese": "羽毛",
+        "pinyin": "yǔ máo"
+      },
+      {
+        "english": "Sleep",
+        "german": "Schlaf",
+        "chinese": "睡觉",
+        "pinyin": "shuì jiào"
+      },
+      {
+        "english": "Soft",
+        "german": "Weich",
+        "chinese": "柔软",
+        "pinyin": "róu ruǎn"
+      },
+      {
+        "english": "Shake",
+        "german": "Schütteln",
+        "chinese": "抖动",
+        "pinyin": "dǒu dòng"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Tidying Junk Drawer",
+      "german": "Schublade aufräumen",
+      "chinese": "整理杂物抽屉",
+      "pinyin": "zhěng lǐ zá wù chōu tì"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Junk",
+        "german": "Abfall",
+        "chinese": "杂物",
+        "pinyin": "zá wù"
+      },
+      {
+        "english": "Drawer",
+        "german": "Schublade",
+        "chinese": "抽屉",
+        "pinyin": "chōu tì"
+      },
+      {
+        "english": "Organize",
+        "german": "Organisieren",
+        "chinese": "整理",
+        "pinyin": "zhěng lǐ"
+      },
+      {
+        "english": "Clutter",
+        "german": "Unordnung",
+        "chinese": "杂乱",
+        "pinyin": "zá luàn"
+      },
+      {
+        "english": "Storage",
+        "german": "Lagerung",
+        "chinese": "储存",
+        "pinyin": "chǔ cún"
+      },
+      {
+        "english": "Mess",
+        "german": "Chaos",
+        "chinese": "混乱",
+        "pinyin": "hùn luàn"
+      },
+      {
+        "english": "Sort",
+        "german": "Sortieren",
+        "chinese": "分类",
+        "pinyin": "fēn lèi"
+      },
+      {
+        "english": "Clean",
+        "german": "Sauber",
+        "chinese": "清洁",
+        "pinyin": "qīng jié"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Fixing Loose Buttons",
+      "german": "Lose Knöpfe befestigen",
+      "chinese": "缝紧松动的纽扣",
+      "pinyin": "féng jǐn sōng dòng de niǔ kòu"
+    },
+    "difficulty": 2,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Button",
+        "german": "Knopf",
+        "chinese": "纽扣",
+        "pinyin": "niǔ kòu"
+      },
+      {
+        "english": "Sew",
+        "german": "Nähen",
+        "chinese": "缝",
+        "pinyin": "féng"
+      },
+      {
+        "english": "Thread",
+        "german": "Faden",
+        "chinese": "线",
+        "pinyin": "xiàn"
+      },
+      {
+        "english": "Clothing",
+        "german": "Kleidung",
+        "chinese": "衣服",
+        "pinyin": "yī fu"
+      },
+      {
+        "english": "Needle",
+        "german": "Nadel",
+        "chinese": "针",
+        "pinyin": "zhēn"
+      },
+      {
+        "english": "Repair",
+        "german": "Reparieren",
+        "chinese": "修理",
+        "pinyin": "xiū lǐ"
+      },
+      {
+        "english": "Loose",
+        "german": "Lose",
+        "chinese": "松动的",
+        "pinyin": "sōng dòng de"
+      },
+      {
+        "english": "Attach",
+        "german": "Befestigen",
+        "chinese": "固定",
+        "pinyin": "gù dìng"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Sewing Hems",
+      "german": "Säume nähen",
+      "chinese": "缝边",
+      "pinyin": "féng biān"
+    },
+    "difficulty": 2,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Hem",
+        "german": "Saum",
+        "chinese": "边",
+        "pinyin": "biān"
+      },
+      {
+        "english": "Sew",
+        "german": "Nähen",
+        "chinese": "缝",
+        "pinyin": "féng"
+      },
+      {
+        "english": "Fabric",
+        "german": "Stoff",
+        "chinese": "布料",
+        "pinyin": "bù liào"
+      },
+      {
+        "english": "Clothing",
+        "german": "Kleidung",
+        "chinese": "衣服",
+        "pinyin": "yī fu"
+      },
+      {
+        "english": "Thread",
+        "german": "Faden",
+        "chinese": "线",
+        "pinyin": "xiàn"
+      },
+      {
+        "english": "Needle",
+        "german": "Nadel",
+        "chinese": "针",
+        "pinyin": "zhēn"
+      },
+      {
+        "english": "Fold",
+        "german": "Falten",
+        "chinese": "折叠",
+        "pinyin": "zhé dié"
+      },
+      {
+        "english": "Stitch",
+        "german": "Stich",
+        "chinese": "针脚",
+        "pinyin": "zhēn jiǎo"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Knotting Shoelaces",
+      "german": "Schnürsenkel binden",
+      "chinese": "系鞋带",
+      "pinyin": "jì xié dài"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Shoelace",
+        "german": "Schnürsenkel",
+        "chinese": "鞋带",
+        "pinyin": "xié dài"
+      },
+      {
+        "english": "Knot",
+        "german": "Knoten",
+        "chinese": "结",
+        "pinyin": "jié"
+      },
+      {
+        "english": "Tie",
+        "german": "Binden",
+        "chinese": "系",
+        "pinyin": "jì"
+      },
+      {
+        "english": "Shoe",
+        "german": "Schuh",
+        "chinese": "鞋",
+        "pinyin": "xié"
+      },
+      {
+        "english": "Loop",
+        "german": "Schleife",
+        "chinese": "环",
+        "pinyin": "huán"
+      },
+      {
+        "english": "Bow",
+        "german": "Schleife",
+        "chinese": "蝴蝶结",
+        "pinyin": "hú dié jié"
+      },
+      {
+        "english": "Secure",
+        "german": "Sichern",
+        "chinese": "固定",
+        "pinyin": "gù dìng"
+      },
+      {
+        "english": "Lace",
+        "german": "Schnürsenkel",
+        "chinese": "鞋带",
+        "pinyin": "xié dài"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Tying a Tie",
+      "german": "Krawatte binden",
+      "chinese": "系领带",
+      "pinyin": "jì lǐng dài"
+    },
+    "difficulty": 2,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Tie",
+        "german": "Krawatte",
+        "chinese": "领带",
+        "pinyin": "lǐng dài"
+      },
+      {
+        "english": "Knot",
+        "german": "Knoten",
+        "chinese": "结",
+        "pinyin": "jié"
+      },
+      {
+        "english": "Neck",
+        "german": "Hals",
+        "chinese": "脖子",
+        "pinyin": "bó zi"
+      },
+      {
+        "english": "Shirt",
+        "german": "Hemd",
+        "chinese": "衬衫",
+        "pinyin": "chèn shān"
+      },
+      {
+        "english": "Formal",
+        "german": "Formell",
+        "chinese": "正式",
+        "pinyin": "zhèng shì"
+      },
+      {
+        "english": "Loop",
+        "german": "Schleife",
+        "chinese": "环",
+        "pinyin": "huán"
+      },
+      {
+        "english": "Windsor",
+        "german": "Windsor",
+        "chinese": "温莎结",
+        "pinyin": "wēn shā jié"
+      },
+      {
+        "english": "Dress",
+        "german": "Kleidung",
+        "chinese": "穿着",
+        "pinyin": "chuān zhuó"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Buffing Shoes",
+      "german": "Schuhe polieren",
+      "chinese": "擦亮鞋子",
+      "pinyin": "cā liàng xié zi"
+    },
+    "difficulty": 2,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Shoe",
+        "german": "Schuh",
+        "chinese": "鞋",
+        "pinyin": "xié"
+      },
+      {
+        "english": "Polish",
+        "german": "Polieren",
+        "chinese": "擦亮",
+        "pinyin": "cā liàng"
+      },
+      {
+        "english": "Shine",
+        "german": "Glänzen",
+        "chinese": "光泽",
+        "pinyin": "guāng zé"
+      },
+      {
+        "english": "Leather",
+        "german": "Leder",
+        "chinese": "皮革",
+        "pinyin": "pí gé"
+      },
+      {
+        "english": "Brush",
+        "german": "Bürste",
+        "chinese": "刷子",
+        "pinyin": "shuā zi"
+      },
+      {
+        "english": "Clean",
+        "german": "Sauber",
+        "chinese": "清洁",
+        "pinyin": "qīng jié"
+      },
+      {
+        "english": "Wax",
+        "german": "Wachs",
+        "chinese": "蜡",
+        "pinyin": "là"
+      },
+      {
+        "english": "Protect",
+        "german": "Schützen",
+        "chinese": "保护",
+        "pinyin": "bǎo hù"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Prepping Slow Cooker",
+      "german": "Slow Cooker vorbereiten",
+      "chinese": "准备慢炖锅",
+      "pinyin": "zhǔn bèi màn dùn guō"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Slow Cooker",
+        "german": "Slow Cooker",
+        "chinese": "慢炖锅",
+        "pinyin": "màn dùn guō"
+      },
+      {
+        "english": "Prepare",
+        "german": "Vorbereiten",
+        "chinese": "准备",
+        "pinyin": "zhǔn bèi"
+      },
+      {
+        "english": "Ingredients",
+        "german": "Zutaten",
+        "chinese": "食材",
+        "pinyin": "shí cái"
+      },
+      {
+        "english": "Cooking",
+        "german": "Kochen",
+        "chinese": "烹饪",
+        "pinyin": "pēng rèn"
+      },
+      {
+        "english": "Heat",
+        "german": "Hitze",
+        "chinese": "加热",
+        "pinyin": "jiā rè"
+      },
+      {
+        "english": "Timer",
+        "german": "Timer",
+        "chinese": "计时器",
+        "pinyin": "jì shí qì"
+      },
+      {
+        "english": "Stew",
+        "german": "Eintopf",
+        "chinese": "炖菜",
+        "pinyin": "dùn cài"
+      },
+      {
+        "english": "Lid",
+        "german": "Deckel",
+        "chinese": "盖子",
+        "pinyin": "gài zi"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Marinating Meat",
+      "german": "Fleisch marinieren",
+      "chinese": "腌制肉",
+      "pinyin": "yān zhì ròu"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Meat",
+        "german": "Fleisch",
+        "chinese": "肉",
+        "pinyin": "ròu"
+      },
+      {
+        "english": "Marinate",
+        "german": "Marinieren",
+        "chinese": "腌制",
+        "pinyin": "yān zhì"
+      },
+      {
+        "english": "Sauce",
+        "german": "Soße",
+        "chinese": "酱汁",
+        "pinyin": "jiàng zhī"
+      },
+      {
+        "english": "Flavor",
+        "german": "Geschmack",
+        "chinese": "味道",
+        "pinyin": "wèi dào"
+      },
+      {
+        "english": "Seasoning",
+        "german": "Gewürz",
+        "chinese": "调味料",
+        "pinyin": "tiáo wèi liào"
+      },
+      {
+        "english": "Soak",
+        "german": "Einweichen",
+        "chinese": "浸泡",
+        "pinyin": "jìn pào"
+      },
+      {
+        "english": "Tenderize",
+        "german": "Zartmachen",
+        "chinese": "嫩化",
+        "pinyin": "nèn huà"
+      },
+      {
+        "english": "Refrigerate",
+        "german": "Kühlen",
+        "chinese": "冷藏",
+        "pinyin": "lěng cáng"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Preheating Oven",
+      "german": "Ofen vorheizen",
+      "chinese": "预热烤箱",
+      "pinyin": "yù rè kǎo xiāng"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Oven",
+        "german": "Ofen",
+        "chinese": "烤箱",
+        "pinyin": "kǎo xiāng"
+      },
+      {
+        "english": "Preheat",
+        "german": "Vorheizen",
+        "chinese": "预热",
+        "pinyin": "yù rè"
+      },
+      {
+        "english": "Temperature",
+        "german": "Temperatur",
+        "chinese": "温度",
+        "pinyin": "wēn dù"
+      },
+      {
+        "english": "Bake",
+        "german": "Backen",
+        "chinese": "烘烤",
+        "pinyin": "hōng kǎo"
+      },
+      {
+        "english": "Heat",
+        "german": "Hitze",
+        "chinese": "加热",
+        "pinyin": "jiā rè"
+      },
+      {
+        "english": "Timer",
+        "german": "Timer",
+        "chinese": "计时器",
+        "pinyin": "jì shí qì"
+      },
+      {
+        "english": "Recipe",
+        "german": "Rezept",
+        "chinese": "食谱",
+        "pinyin": "shí pǔ"
+      },
+      {
+        "english": "Cooking",
+        "german": "Kochen",
+        "chinese": "烹饪",
+        "pinyin": "pēng rèn"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Greasing Baking Pans",
+      "german": "Backformen einfetten",
+      "chinese": "给烤盘抹油",
+      "pinyin": "gěi kǎo pán mǒ yóu"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Baking Pan",
+        "german": "Backform",
+        "chinese": "烤盘",
+        "pinyin": "kǎo pán"
+      },
+      {
+        "english": "Grease",
+        "german": "Fetten",
+        "chinese": "抹油",
+        "pinyin": "mǒ yóu"
+      },
+      {
+        "english": "Butter",
+        "german": "Butter",
+        "chinese": "黄油",
+        "pinyin": "huáng yóu"
+      },
+      {
+        "english": "Oil",
+        "german": "Öl",
+        "chinese": "油",
+        "pinyin": "yóu"
+      },
+      {
+        "english": "Non-stick",
+        "german": "Antihaft",
+        "chinese": "不粘",
+        "pinyin": "bù zhān"
+      },
+      {
+        "english": "Cooking Spray",
+        "german": "Backspray",
+        "chinese": "烹饪喷雾",
+        "pinyin": "pēng rèn pēn wù"
+      },
+      {
+        "english": "Prevent",
+        "german": "Verhindern",
+        "chinese": "防止",
+        "pinyin": "fáng zhǐ"
+      },
+      {
+        "english": "Stick",
+        "german": "Kleben",
+        "chinese": "粘",
+        "pinyin": "zhān"
+      }
+    ]
+  },
+  {
+    "target": {
+      "english": "Whisking Eggs",
+      "german": "Eier verquirlen",
+      "chinese": "打蛋",
+      "pinyin": "dǎ dàn"
+    },
+    "difficulty": 1,
+    "category": "daily activities",
+    "forbidden": [
+      {
+        "english": "Egg",
+        "german": "Ei",
+        "chinese": "蛋",
+        "pinyin": "dàn"
+      },
+      {
+        "english": "Whisk",
+        "german": "Verquirlen",
+        "chinese": "搅拌",
+        "pinyin": "jiǎo bàn"
+      },
+      {
+        "english": "Mix",
+        "german": "Mischen",
+        "chinese": "混合",
+        "pinyin": "hùn hé"
+      },
+      {
+        "english": "Bowl",
+        "german": "Schüssel",
+        "chinese": "碗",
+        "pinyin": "wǎn"
+      },
+      {
+        "english": "Frothy",
+        "german": "Schaumig",
+        "chinese": "泡沫",
+        "pinyin": "pào mò"
+      },
+      {
+        "english": "Cooking",
+        "german": "Kochen",
+        "chinese": "烹饪",
+        "pinyin": "pēng rèn"
+      },
+      {
+        "english": "Recipe",
+        "german": "Rezept",
+        "chinese": "食谱",
+        "pinyin": "shí pǔ"
+      },
+      {
+        "english": "Blend",
+        "german": "Vermischen",
+        "chinese": "混合",
+        "pinyin": "hùn hé"
+      }
+    ]
   }
 ]

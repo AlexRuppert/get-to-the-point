@@ -37,12 +37,12 @@
     nextCard()
   }
   function answerSkipped() {
-    if (!$roundState.hasStarted) return
+    if ($roundState.totalSeconds < 0) return
     $roundState.totalSeconds -= $settings.secondsPenaltyForSkip
-    if ($roundState.totalSeconds < 0) {
-      $roundState.totalSeconds = 0
+
+    if ($roundState.totalSeconds > 0) {
+      nextCard()
     }
-    nextCard()
   }
   function answerFine() {
     if (!$roundState.hasStarted) return

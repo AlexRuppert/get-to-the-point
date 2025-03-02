@@ -38,6 +38,7 @@
   "dependencies": {
     "@mdi/js": "^7.4.47",
     "color-hash": "^2.0.2",
+    "deepmerge": "^4.3.1",
     "svelte-gestures": "^1.5.2"
   }
 }
