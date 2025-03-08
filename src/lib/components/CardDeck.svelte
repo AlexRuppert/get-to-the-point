@@ -8,6 +8,29 @@
   import { getHexColor } from '$lib/logic/game'
 
   export let currentCard: CardDataEnriched
+
+  $: {
+    if (!currentCard) {
+      currentCard = {
+        category: 'none',
+        categoryColor: '#333',
+        difficulty: 1,
+        word: {
+          en: '',
+          de: '',
+          zh: '',
+          pinyin: ''
+        },
+        forbidden: []
+      }
+    }
+  }
+  let displayedCardDifficulty = ''
+  $: {
+    if (currentCard)
+      displayedCardDifficulty =
+        currentCard.difficulty === 1 ? 'easy' : currentCard.difficulty === 2 ? 'medium' : 'hard'
+  }
   const dispatch = createEventDispatcher()
 
   const cardTouch = { start: { x: 0, y: 0 } }
@@ -74,46 +97,52 @@
     >
       <div
         class="rounded-md border-2 relative h-full"
-        style:border-color={currentCard.categoryColor}
+        style:border-color={currentCard?.categoryColor}
       >
         <div class="flex w-full -top-4 left-0 absolute justify-center">
           <div
             class="rounded-full font-medium text-white text-sm tracking-wider py-1 px-2 capitalize"
-            style:background-color={currentCard.categoryColor}
+            style:background-color={currentCard?.categoryColor}
           >
-            {currentCard.category}
+            {currentCard?.category}
           </div>
+        </div>
+        <div
+          class="absolute right-2 -top-4 bg-white ml-1 font-medium text-center rounded-full border-2 text-sm tracking-wider py-1 px-2 capitalize"
+          style:border-color={currentCard?.categoryColor}
+        >
+          {displayedCardDifficulty}
         </div>
         <div class="flex flex-col h-full">
           <div
             class="flex basis-0 flex-col space-y-2 w-full h-full min-h-[8em] my-4 target-word items-center justify-center tracking-wider leading-4"
           >
-            <div class="w-full target-words" style="--border-color: {currentCard.categoryColor}40">
+            <div class="w-full target-words" style="--border-color: {currentCard?.categoryColor}40">
               {#if $settings.languages.german}
                 <div class="py-2 font-medium text-center text-xl">
-                  {currentCard.word.de}
+                  {currentCard?.word.de}
                 </div>
               {/if}
 
               {#if $settings.languages.english}
                 <div class="py-2 font-medium text-center text-xl">
-                  {currentCard.word.en}
+                  {currentCard?.word.en}
                 </div>
               {/if}
-              {#if $settings.languages.chinese}
+              {#if $settings?.languages.chinese}
                 <div class="">
-                  <div class="text-center text-2xl">{currentCard.word.zh}</div>
-                  <div class="-mt-1 text-center text-sm">{currentCard.word.pinyin}</div>
+                  <div class="text-center text-2xl">{currentCard?.word.zh}</div>
+                  <div class="-mt-1 text-center text-sm">{currentCard?.word.pinyin}</div>
                 </div>
               {/if}
             </div>
           </div>
           <div class="forbidden-words grow tracking-wider leading-4 h-full flex flex-col">
-            {#each currentCard.forbidden as forbiddenWords, i}
+            {#each currentCard?.forbidden as forbiddenWords, i}
               <div
                 class="flex align-middle justify-center p-0 min-h-[2em] max-h-[6em] h-full"
-                style:background-color={currentCard.categoryColor + (i % 2 == 0 ? '22' : '44')}
-                style:border-color={currentCard.categoryColor}
+                style:background-color={currentCard?.categoryColor + (i % 2 == 0 ? '22' : '44')}
+                style:border-color={currentCard?.categoryColor}
               >
                 <div
                   class="flex flex-col items-center justify-center"

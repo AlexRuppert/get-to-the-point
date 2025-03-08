@@ -56,7 +56,13 @@
 
   function reShuffle() {
     $cardList = fisherYatesShuffle(
-      $allCards.filter((c) => !$settings.excludeCategories.includes(c.category))
+      $allCards.filter(
+        (c) =>
+          !$settings.excludeCategories.includes(c.category) &&
+          [$settings.difficulties.easy, $settings.difficulties.medium, $settings.difficulties.hard][
+            c.difficulty - 1
+          ]
+      )
     ).map((card) => enhanceCardInfo(card, $settings))
 
     currentCard = $cardList[0]
@@ -86,10 +92,31 @@
     }
   }
   let lastExcludedCategories = $settings.excludeCategories
+  let lastDifficulties = [
+    $settings.difficulties.easy,
+    $settings.difficulties.medium,
+    $settings.difficulties.hard
+  ]
   $: {
-    if ($settings.excludeCategories.join() != lastExcludedCategories.join()) {
+    if (
+      $settings.excludeCategories.join() != lastExcludedCategories.join() ||
+      [
+        $settings.difficulties.easy,
+        $settings.difficulties.medium,
+        $settings.difficulties.hard
+      ].join() != lastDifficulties.join()
+    ) {
       lastExcludedCategories = $settings.excludeCategories
-      $cardList = $cardList.filter((c) => !$settings.excludeCategories.includes(c.category))
+      lastDifficulties = [
+        $settings.difficulties.easy,
+        $settings.difficulties.medium,
+        $settings.difficulties.hard
+      ]
+      console.log(lastDifficulties)
+      $cardList = $cardList.filter((c) => {
+        let difficulty = lastDifficulties[c.difficulty - 1]
+        return !$settings.excludeCategories.includes(c.category) && difficulty
+      })
       advanceCards()
     }
   }
@@ -101,7 +128,6 @@
 
   $: {
     if ($resetGameTriggered) {
-      console.log('trigg')
       ;(async () => {
         reShuffle()
         advanceCards()
